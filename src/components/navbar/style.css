@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Bungee+Shade&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Vast+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC|Bungee+Inline|Notable|Paytone+One|Rubik+Mono+One&display=swap');
+
+/* font-family: 'Notable', sans-serif;
+font-family: 'Bowlby One SC', cursive;
+font-family: 'Paytone One', sans-serif;
+font-family: 'Rubik Mono One', sans-serif;
+font-family: 'Bungee Inline', cursive */
 
 body {
     background-image: url("./Header_BG1.png");
