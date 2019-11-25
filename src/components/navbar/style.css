@@ -25,10 +25,9 @@ body {
     box-shadow: 0 10px 10px -10px #8c8c8c inset;
 }
 
-.navbar-brand {
-    font-family: 'Vast Shadow', cursive;
-    font-family: 'Bungee Shade', cursive;
+.navLink {
 
+    font-family: 'Bungee Inline', cursive;
     font-size: 54px;
     font-weight: 400;
     line-height: 22px;
@@ -40,19 +39,39 @@ body {
 
 .burst-8 {
     background: red;
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
     position: relative;
     text-align: center;
     transform: rotate(20deg);
+    border-radius: 15px;
   }
+
   .burst-8:before {
+    border-radius: 15px;
     content: "";
     position: absolute;
     top: 0;
     left: 0;
-    height: 80px;
-    width: 80px;
+    height: 90px;
+    width: 90px;
     background: red;
-    transform: rotate(135deg);
+    transform: rotate(125deg);
+  }
+
+  .burst-8:after {
+    border-radius: 15px;
+
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 90px;
+    width: 90px;
+    background: red;
+    transform: rotate(155deg);
+  }
+
+ .navbar a:not([href]):not([tabindex]) {
+    color: #f9ebd9;
   }

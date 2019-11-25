@@ -10,26 +10,22 @@ const NavBar = () => {
 <div className="container">
   <div className="row">
     <div className="col-md-12">
-      <nav className="navbar">
-        <a className="navbar-brand" href="#">
-          <img src="https://getbootstrap.com/docs/4.3/assets/brand/bootstrap-solid.svg" width="30" height="30" alt=""/>
-        </a>
-        <a className="navbar-brand" href="#">Feed</a>
-        <div className="burst-8">
-</div>
-        <a className="navbar-brand" href="#">My Photos</a>
-        <div className="my-2 my-sm-0">
-            {!isAuthenticated && (
-              <button onClick={() => loginWithRedirect({})}>Log in</button>
-            )}
-
-            {isAuthenticated && <button onClick={() => logout()}>Log out</button>}
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <div className="collapse navbar-collapse d-flex justify-content-around" id="navbarSupportedContent">
+          <a className="navLink flex-grow-1" href="#">Feed</a>
+          <div className="burst-8 "></div>
+          <a className="navLink" href="#">My Photos</a>
+          {!isAuthenticated && (
+            <a onClick={() => loginWithRedirect({})} className="navLink">Log in</a> )}
+          {isAuthenticated && <a onClick={() => logout()} className="navLink">Log out</a>}
         </div>
       </nav>
-          <ColoredLine />
     </div>
   </div>
 </div>
+
+
+
   );
 };
 
