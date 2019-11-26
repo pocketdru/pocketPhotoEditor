@@ -38,40 +38,43 @@ body {
 }
 
 .burst-8 {
-    background: red;
-    width: 90px;
-    height: 90px;
+    flex: initial;
+    width: 130px;
+    height: 130px;
     position: relative;
     text-align: center;
     transform: rotate(20deg);
-    border-radius: 15px;
+    border: 3px gray solid;
+    border-radius: 10px;
+    background: url("./Contact_section_BG.png");
+  }
+
+  .burst-8:before, .burst-8:after {
+
+    border-radius: 10px;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 130px;
+    width: 130px;
+    transform: rotate(125deg);
+    background: url("./Contact_section_BG.png");
   }
 
   .burst-8:before {
-    border-radius: 15px;
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 90px;
-    width: 90px;
-    background: red;
-    transform: rotate(125deg);
+    border-top: 3px gray solid;
+    border-bottom: 3px gray solid;
   }
 
   .burst-8:after {
-    border-radius: 15px;
-
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 90px;
-    width: 90px;
-    background: red;
-    transform: rotate(155deg);
+        transform: rotate(155deg);
   }
 
  .navbar a:not([href]):not([tabindex]) {
     color: #f9ebd9;
+  }
+
+  .login {
+      font-size: 20px;
   }
