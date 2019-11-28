@@ -14,7 +14,6 @@ body {
 
 .navbar {
     background-image: url("./Header_BG1.png");
-    height: 260px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
     background-color: red;
 }
@@ -26,13 +25,10 @@ body {
 }
 
 .navLink {
-
     font-family: 'Bungee Inline', cursive;
     font-size: 54px;
     font-weight: 400;
-    line-height: 22px;
     text-transform: uppercase;
-    height: 55px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
     color: #f9ebd9;
 }
@@ -42,6 +38,7 @@ body {
     width: 130px;
     height: 130px;
     position: relative;
+    top:20px;
     text-align: center;
     transform: rotate(20deg);
     border: 3px gray solid;
@@ -50,7 +47,6 @@ body {
   }
 
   .burst-8:before, .burst-8:after {
-
     border-radius: 10px;
     content: "";
     position: absolute;

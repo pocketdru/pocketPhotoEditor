@@ -1,6 +1,9 @@
 import React from "react";
 import NavBar from "./components/navbar/NavBar";
 import { useAuth0 } from "./react-auth0-spa.js";
+// import { Dimensions } from 'react-native';
+
+
 
 function App() {
   const { loading } = useAuth0();
