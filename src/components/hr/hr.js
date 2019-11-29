@@ -1,13 +1,9 @@
 import React from "react";
 import { useAuth0 } from "../../react-auth0-spa";
 
-const ColoredLine = ({ color }) => (
-    <hr
-        style={{
-            color: color,
-            backgroundColor: color,
-        }}
-    />
-);
 
+const ColoredLine = (props) => (
+console.log(props),
+    <hr className={props.className}/>
+)
 export default ColoredLine;

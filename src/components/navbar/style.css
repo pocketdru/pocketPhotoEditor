@@ -22,9 +22,11 @@ font-family: 'Bungee Inline', cursive */
   {
     font-size: 30px!important;
   }
+
   .burst-8, .burst-8:after, .burst-8:before {
     height: 100px!important;
     width: 100px!important;
+    font-size: 70px!important;
   }
 
 }
@@ -32,12 +34,16 @@ font-family: 'Bungee Inline', cursive */
 {
   .myPhotos
   {
+    margin-top: 15px;
     font-size: 25px!important;
   }
   .burst-8 {
     top:0px!important;
   }
-
+  .login, .feed {
+    text-align: center;
+    margin-bottom: 15px;
+  }
 }
 
 body {
@@ -57,7 +63,7 @@ body {
 }
 
 .navLink {
-    font-family: 'Bungee Inline', cursive;
+  font-family: 'Paytone One', sans-serif;
     font-size: 54px;
     font-weight: 400;
     text-transform: uppercase;
@@ -66,6 +72,7 @@ body {
 }
 
 .burst-8 {
+    z-index: 1;
     flex: initial;
     width: 130px;
     max-width: 40%!important;
@@ -99,15 +106,38 @@ body {
   }
 
   .burst-8:after {
-        width: 130px;
-        height: 130px;
-        transform: rotate(155deg);
+    font-family: 'Bungee Inline', cursive;  
+    text-shadow: 2px 3px 0px rgba(0,0,0,0.15), 2px 2px 0px #f9ebd9;  
+    vertical-align: middle;
+    text-align: center;
+    color: #f6edd8;
+    font-size: 90px;
+    letter-spacing: 0.94px;
+    content: "PE";
+    width: 130px;
+    height: 130px;
+    transform: rotate(-25deg);
   }
-
+  .pe {
+    text-align: center;
+    color: #f6edd8;
+    font-size: 188px;
+    letter-spacing: 0.94px;
+  }
  .navbar a:not([href]):not([tabindex]) {
     color: #f9ebd9;
   }
 
+  .myPhotos {
+    text-align: center;
+  }
+
   .login {
-      font-size: 20px;
+      z-index: 1;
+      font-size: 18px;
+  }
+
+  .hrUp {
+    position: relative;
+    top: -50px;
   }
