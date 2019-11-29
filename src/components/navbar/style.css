@@ -8,6 +8,38 @@ font-family: 'Paytone One', sans-serif;
 font-family: 'Rubik Mono One', sans-serif;
 font-family: 'Bungee Inline', cursive */
 
+@media screen and (max-width : 1200px)
+{
+  .myPhotos, .feed
+  {
+    font-size: 40px!important;
+  }
+}
+
+@media screen and (max-width : 992px)
+{
+  .myPhotos, .feed
+  {
+    font-size: 30px!important;
+  }
+  .burst-8, .burst-8:after, .burst-8:before {
+    height: 100px!important;
+    width: 100px!important;
+  }
+
+}
+@media screen and (max-width : 767px)
+{
+  .myPhotos
+  {
+    font-size: 25px!important;
+  }
+  .burst-8 {
+    top:0px!important;
+  }
+
+}
+
 body {
     background-image: url("./Header_BG1.png");
 }
@@ -36,6 +68,7 @@ body {
 .burst-8 {
     flex: initial;
     width: 130px;
+    max-width: 40%!important;
     height: 130px;
     position: relative;
     top:20px;
@@ -60,10 +93,14 @@ body {
 
   .burst-8:before {
     border-top: 3px gray solid;
+    width: 130px;
+    height: 130px;
     border-bottom: 3px gray solid;
   }
 
   .burst-8:after {
+        width: 130px;
+        height: 130px;
         transform: rotate(155deg);
   }
 
