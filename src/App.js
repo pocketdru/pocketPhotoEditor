@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from "./components/navbar/NavBar";
 import { useAuth0 } from "./react-auth0-spa.js";
+import MainCarousel from "./components//mainCarousel";
 // import { Dimensions } from 'react-native';
 
 
@@ -16,6 +17,7 @@ function App() {
     <div className="App">
       <header>
         <NavBar />
+        <MainCarousel/>
       </header>
     </div>
   );

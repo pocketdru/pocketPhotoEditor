@@ -2,22 +2,14 @@ import React from "react";
 import { useAuth0 } from "../../react-auth0-spa";
 import "./style.css";
 import ColoredLine from "../hr/hr";
-import { relative } from "path";
-// import { Dimensions } from 'react-native'
 
 const NavBar = () => {
   const { isAuthenticated, loginWithRedirect, logout } = useAuth0();
   console.log(window.innerHeight);
   console.log(window.innerWidth);
 
-const styles = ({
- ColoredLine: {
-    position: relative,
-    top: 40
-  }
-});
 
-  return (
+ return (
 <div className="container">
   <div className="row">
     <div className="col-md-12">
