@@ -34,3 +34,8 @@
     right: 15px;
     top: 10px;
 }
+
+.carousel {
+    border: 20px solid #fbfaf6;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}

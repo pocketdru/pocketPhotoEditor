@@ -25,7 +25,7 @@ const mainCarousel = () => {
                     <img src={r4r} className="img-fluid rightRec" alt="Responsive image"/>
                 </div>
             </div>
-            <div className="row">
+            <div className="row mt-5">
                 <div className="col-md-12">
                     <Carousel/>
                 </div>
