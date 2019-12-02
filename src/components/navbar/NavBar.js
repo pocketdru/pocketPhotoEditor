@@ -1,7 +1,7 @@
 import React from "react";
 import { useAuth0 } from "../../react-auth0-spa";
 import "./style.css";
-import ColoredLine from "../hr/hr";
+import ColoredLine from "../hr";
 
 const NavBar = () => {
   const { isAuthenticated, loginWithRedirect, logout } = useAuth0();

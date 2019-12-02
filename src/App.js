@@ -1,7 +1,7 @@
 import React from "react";
-import NavBar from "./components/navbar/NavBar";
+import NavBar from "./components/navbar/NavBar.js";
 import { useAuth0 } from "./react-auth0-spa.js";
-import MainCarousel from "./components//mainCarousel";
+import MainCarousel from "./components/mainCarousel";
 // import { Dimensions } from 'react-native';
 
 
