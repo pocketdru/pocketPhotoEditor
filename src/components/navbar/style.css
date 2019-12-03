@@ -14,6 +14,10 @@ font-family: 'Bungee Inline', cursive */
   {
     font-size: 40px!important;
   }
+
+  #burst-8 {
+    max-width: 20.666667%!important;
+  }
 }
 
 @media screen and (max-width : 992px)
@@ -23,12 +27,17 @@ font-family: 'Bungee Inline', cursive */
     font-size: 30px!important;
   }
 
-  .burst-8, .burst-8:after, .burst-8:before {
+#burst-8:after, #burst-8:before {
     height: 100px!important;
     width: 100px!important;
     font-size: 70px!important;
   }
-
+  
+  #burst-8 {
+    height: 100px!important;
+    min-width: 106px!important;
+    font-size: 70px!important;
+  }
 }
 @media screen and (max-width : 767px)
 {
@@ -37,12 +46,19 @@ font-family: 'Bungee Inline', cursive */
     margin-top: 15px;
     font-size: 25px!important;
   }
-  .burst-8 {
+  #burst-8 {
     top:0px!important;
   }
   .login, .feed {
     text-align: center;
     margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width : 460px)
+{
+    #burst-8 {
+    min-width: 100px;
   }
 }
 
@@ -71,11 +87,11 @@ body {
     color: #f9ebd9;
 }
 
-.burst-8 {
+#burst-8 {
     z-index: 1;
     flex: initial;
     width: 130px;
-    max-width: 40%!important;
+    max-width: 12.666667%;
     height: 130px;
     position: relative;
     top:20px;
@@ -86,7 +102,7 @@ body {
     background: url("./Contact_section_BG.png");
   }
 
-  .burst-8:before, .burst-8:after {
+  #burst-8:before, #burst-8:after {
     border-radius: 10px;
     content: "";
     position: absolute;
@@ -98,14 +114,14 @@ body {
     background: url("./Contact_section_BG.png");
   }
 
-  .burst-8:before {
+  #burst-8:before {
     border-top: 3px gray solid;
     width: 130px;
     height: 130px;
     border-bottom: 3px gray solid;
   }
 
-  .burst-8:after {
+  #burst-8:after {
     font-family: 'Bungee Inline', cursive;  
     text-shadow: 2px 3px 0px rgba(0,0,0,0.15), 2px 2px 0px #f9ebd9;  
     vertical-align: middle;

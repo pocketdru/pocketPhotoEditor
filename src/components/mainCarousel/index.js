@@ -19,7 +19,9 @@ const mainCarousel = () => {
             </div>
             <div className="row">
                 <div className="col-md-12 ribbon">
-                    {/* Зайти с мака и нормально обрезать картинки!!!!!!!!!! */}
+                    <div>
+                        <p className="ribbon-text">RETRO STYLE FILTERS</p>
+                    </div>
                     <img src={r4} className="img-fluid sideRec" alt="Responsive image"/>
                     <img src={r1} className="img-fluid mainRec" alt="Responsive image"/>
                     <img src={r4r} className="img-fluid rightRec" alt="Responsive image"/>

@@ -16,7 +16,7 @@ const NavBar = () => {
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="collapse navbar-collapse d-flex justify-content-around row" id="navbarSupportedContent">
           <a className="navLink col-md-5 feed" href="#">Feed</a>
-          <div className="burst-8 col-md-2"></div>
+          <div className="col-md-2" id="burst-8"></div>
           <a className="navLink col-md-4 myPhotos" href="#">My Photos</a>
           {!isAuthenticated && (
           <a onClick={() => loginWithRedirect({})} className="navLink login col-md-1">Log in</a> )}

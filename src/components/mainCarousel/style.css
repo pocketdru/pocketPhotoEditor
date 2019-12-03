@@ -17,6 +17,7 @@
 .ribbon .mainRec {
     height: 60px;
     z-index: 1;
+    box-shadow: 0px 11px 8px rgba(49, 49, 49, 0.5);
 }
 
 .sideRec {
@@ -24,7 +25,7 @@
     width: 60px;
     position: relative;
     left: 15px;
-    top: 10px;
+    top: 12px;
 }
 
 .rightRec {
@@ -32,7 +33,17 @@
     width: 60px;
     position: relative;
     right: 15px;
-    top: 10px;
+    top: 12px;
+}
+
+.sideRec, .rightRec {
+    box-shadow: 0px 3px 0px rgba(49, 49, 49, 0.14);
+}
+
+.ribbon-text {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
 }
 
 .carousel {
