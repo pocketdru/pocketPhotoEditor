@@ -18,13 +18,25 @@ const mainCarousel = () => {
                 </div>
             </div>
             <div className="row">
-                <div className="col-md-12 ribbon">
+                <div className="col-md-2 d-flex align-content-center flex-wrap">
+                    <span className="dot align-middle"></span>
+                    <span className="dot align-bottom"></span>
+                    <span className="dot align-text-bottom"></span>
+                    <span className="dot "></span>
+                </div>
+                <div className="col-md-8 ribbon">
                     <div>
-                        <p className="ribbon-text">RETRO STYLE FILTERS</p>
+                        <h2 className="ribbon-text">RETRO STYLE FILTERS</h2>
                     </div>
                     <img src={r4} className="img-fluid sideRec" alt="Responsive image"/>
                     <img src={r1} className="img-fluid mainRec" alt="Responsive image"/>
                     <img src={r4r} className="img-fluid rightRec" alt="Responsive image"/>
+                </div>
+                <div className="col-md-2 d-flex align-content-center flex-wrap">
+                    <span className="dot align-bottom"></span>
+                    <span className="dot align-bottom"></span>
+                    <span className="dot align-bottom"></span>
+                    <span className="dot align-bottom"></span>
                 </div>
             </div>
             <div className="row mt-5">
