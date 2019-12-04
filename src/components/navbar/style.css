@@ -8,7 +8,7 @@ font-family: 'Paytone One', sans-serif;
 font-family: 'Rubik Mono One', sans-serif;
 font-family: 'Bungee Inline', cursive */
 
-@media screen and (max-width : 1200px)
+@media screen and (max-width : 1200px) and (min-width: 992px)
 {
   .myPhotos, .feed
   {
@@ -16,7 +16,7 @@ font-family: 'Bungee Inline', cursive */
   }
 
   #burst-8 {
-    max-width: 20.666667%!important;
+    max-width: 15%!important;
   }
 }
 
@@ -90,7 +90,7 @@ body {
 #burst-8 {
     z-index: 1;
     flex: initial;
-    width: 130px;
+    /* width: 130px; */
     max-width: 12.666667%;
     height: 130px;
     position: relative;
