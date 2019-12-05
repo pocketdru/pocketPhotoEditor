@@ -18,10 +18,10 @@ const mainCarousel = () => {
                 </div>
             </div>
             <div className="row">
-                <div className="col-md-2 d-flex align-content-center flex-wrap">
-                    <span className="dot align-middle"></span>
-                    <span className="dot align-bottom"></span>
-                    <span className="dot align-text-bottom"></span>
+                <div className="col-md-2 d-flex align-content-end flex-wrap">
+                    <span className="dot"></span>
+                    <span className="dot"></span>
+                    <span className="dot"></span>
                     <span className="dot "></span>
                 </div>
                 <div className="col-md-8 ribbon">
@@ -32,11 +32,11 @@ const mainCarousel = () => {
                     <img src={r1} className="img-fluid mainRec" alt="Responsive image"/>
                     <img src={r4r} className="img-fluid rightRec" alt="Responsive image"/>
                 </div>
-                <div className="col-md-2 d-flex align-content-center flex-wrap">
-                    <span className="dot align-bottom"></span>
-                    <span className="dot align-bottom"></span>
-                    <span className="dot align-bottom"></span>
-                    <span className="dot align-bottom"></span>
+                <div className="col-md-2 d-flex align-content-end flex-wrap">
+                    <span className="dot"></span>
+                    <span className="dot"></span>
+                    <span className="dot"></span>
+                    <span className="dot"></span>
                 </div>
             </div>
             <div className="row mt-5">
