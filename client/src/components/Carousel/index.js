@@ -21,8 +21,8 @@ function ControlledCarousel() {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h3>Crate account</h3>
+            <p>To explore all the features of the photo editing.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -33,8 +33,8 @@ function ControlledCarousel() {
           />
   
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3>Share your photos with your friends!</h3>
+            <p>After editing you can add your photo to the feed.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -45,9 +45,9 @@ function ControlledCarousel() {
           />
   
           <Carousel.Caption>
-            <h3>Third slide label</h3>
+            <h3>Big choise of filters</h3>
             <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+              Try all the photo filters yourself.
             </p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -58,8 +58,8 @@ function ControlledCarousel() {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h3>Big choise of photo effects</h3>
+            <p>Try all the photo effects yourself.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -69,8 +69,8 @@ function ControlledCarousel() {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h3>Explore all the features and effects.</h3>
+            <p>You can crop, shrink, add an effect, apply filter, change the size.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -80,8 +80,8 @@ function ControlledCarousel() {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h3>Create account</h3>
+            <p>To start edit today.</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
