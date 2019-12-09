@@ -6,6 +6,10 @@
     .ribbon-text {
         font-size: 1.5em!important;
     }
+
+    .ribbon .hr {
+        max-width: 73%;
+    }
 }
 
 @media screen and (max-width : 767px) {
@@ -31,6 +35,24 @@
         border: 10px solid #fbfaf6!important;
     }
 
+    .ribbon-text {
+        top: 23%!important;
+    }
+
+    .ribbon .hr {
+        width: 300px!important;
+    }
+
+    .ribbon #hrUp {
+        top:-54px!important;
+    }
+
+}
+
+@media screen and (max-width : 414px) {
+    .ribbon #hrUp {
+        top:-51px!important;
+    }
 }
 
 @media screen and (max-width : 365px) {
@@ -40,6 +62,20 @@
 
     .appName {
         font-size: 45px!important;
+    }
+
+    .ribbon #hrUp {
+        top:-46px!important;
+    }
+}
+
+@media screen and (max-width : 320px) {
+    .ribbon #hrUp {
+        top: -43px!important;
+    }
+
+    .ribbon-text {
+        top:20%!important
     }
 }
 
@@ -97,13 +133,26 @@
 
 .ribbon-text {
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.8);
     color: #4b4e4c;
     /* font-size: 34px; */
     font-weight: 400;
+}
+
+.ribbon .hr {
+    width: 450px;
+}
+
+.ribbon #hrUp {
+    top: -73px;
+}
+
+.ribbon #hrDown {
+    position: relative;
+    top: -36px;
 }
 
 .carousel {

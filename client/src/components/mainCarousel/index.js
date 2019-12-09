@@ -1,5 +1,6 @@
 import React from "react";
 import { useAuth0 } from "../../react-auth0-spa";
+import ColoredLine from "../hr";
 import "./style.css";
 import r1 from "./Rectangle_1.png";
 import r4 from "./Rectangle_4.png";
@@ -31,6 +32,8 @@ const mainCarousel = () => {
                     <img src={r4} className="img-fluid sideRec" alt="Responsive image"/>
                     <img src={r1} className="img-fluid mainRec" alt="Responsive image"/>
                     <img src={r4r} className="img-fluid rightRec" alt="Responsive image"/>
+                    <ColoredLine className="hr" id="hrUp"/>
+                    <ColoredLine className="hr" id="hrDown"/>
                 </div>
                 <div className="col-md-2 d-flex align-content-end flex-wrap">
                     <span className="dot"></span>
@@ -47,7 +50,7 @@ const mainCarousel = () => {
             <div className="row">
                 <div className="col-md-12 d-flex justify-content-center welcome-slogan m-5">
                     <div>
-                        <h2 className>Welcome to your pocket pics edtior</h2>
+                        <h2>Welcome to your pocket pics edtior</h2>
                         <p>Edit your photos and share with friends!</p>
                     </div>
                 </div>

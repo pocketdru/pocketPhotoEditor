@@ -76,7 +76,7 @@ body {
     background-color: red;
 }
 
- hr {
+ .hr {
     border-top: #d1bf92 dashed 1px;
     border-bottom:#696666 dashed 1px;
     box-shadow: 0 10px 10px -10px #8c8c8c inset;
@@ -159,7 +159,7 @@ body {
       padding-right: 0px;
   }
 
-  .hrUp {
+  #hrUp {
     position: relative;
     top: -50px;
   }

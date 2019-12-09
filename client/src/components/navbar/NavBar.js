@@ -23,8 +23,8 @@ const NavBar = () => {
           {isAuthenticated && <a onClick={() => logout()} className="navLink col-md-1" id="login">Log out</a>}
         </div>
       </nav>
-      <ColoredLine />
-      <ColoredLine className="hrUp"/>
+      <ColoredLine className="hr" />
+      <ColoredLine id="hrUp" className="hr"/>
     </div>
   </div>
 </div>
