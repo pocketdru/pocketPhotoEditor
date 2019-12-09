@@ -1,0 +1,129 @@
+@media screen and (max-width : 992px) {
+    .mainRec {
+        max-width: 73%!important;
+    }
+
+    .ribbon-text {
+        font-size: 1.5em!important;
+    }
+}
+
+@media screen and (max-width : 767px) {
+    .dot {
+        margin: 15px auto!important;
+    }
+}
+
+@media screen and (max-width : 492px) {
+    .mainRec {
+        height: auto!important;
+    }
+
+    .rightRec, .sideRec {
+        width: 45px!important;
+    }
+
+    .ribbon-text {
+        font-size: 1em!important;
+    }
+
+    .carousel {
+        border: 10px solid #fbfaf6!important;
+    }
+
+}
+
+@media screen and (max-width : 365px) {
+    .rightRec, .sideRec {
+        width: 35px!important;
+    }
+
+    .appName {
+        font-size: 45px!important;
+    }
+}
+
+.appName {
+    text-shadow: 1px 1px 2px rgba(232, 244, 244, 0.3);
+    color: #f9ebd9;
+    font-family: 'Bungee Inline', cursive;  
+    text-shadow: 2px 3px 0px rgba(0,0,0,0.15), 2px 2px 0px #f9ebd9;
+    font-size: 65px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    text-align: center;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: #fff1ce;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 14px 4px;
+  }
+
+.ribbon {
+    text-align: center;
+    font-family: 'Paytone One', sans-serif;
+}
+
+.ribbon .mainRec {
+    height: 60px;
+    z-index: 1;
+    box-shadow: 0px 11px 8px rgba(49, 49, 49, 0.5);
+}
+
+.sideRec {
+    height: 50px;
+    width: 60px;
+    position: relative;
+    left: 15px;
+    top: 12px;
+}
+
+.rightRec {
+    height: 50px;
+    width: 60px;
+    position: relative;
+    right: 15px;
+    top: 12px;
+}
+
+.sideRec, .rightRec {
+    box-shadow: 0px 3px 0px rgba(49, 49, 49, 0.14);
+}
+
+.ribbon-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.8);
+    color: #4b4e4c;
+    /* font-size: 34px; */
+    font-weight: 400;
+}
+
+.carousel {
+    border: 20px solid #fbfaf6;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.welcome-slogan h2, .welcome-slogan p {
+    color: #f7ebd8;
+    text-align: center;
+    font-family: 'Paytone One', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.welcome-slogan h2 {
+    font-size: x-large;
+}
+
+.welcome-slogan p {
+    font-size: small;
+}

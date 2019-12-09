@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Vast+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC|Bungee+Inline|Notable|Paytone+One|Rubik+Mono+One&display=swap');
+
+/* font-family: 'Notable', sans-serif;
+font-family: 'Bowlby One SC', cursive;
+font-family: 'Paytone One', sans-serif;
+font-family: 'Rubik Mono One', sans-serif;
+font-family: 'Bungee Inline', cursive */
+
+@media screen and (max-width : 1200px) and (min-width: 992px)
+{
+  .myPhotos, .feed
+  {
+    font-size: 40px!important;
+  }
+
+  #burst-8 {
+    max-width: 15%!important;
+  }
+}
+
+@media screen and (max-width : 992px)
+{
+  .myPhotos, .feed
+  {
+    font-size: 30px!important;
+  }
+
+#burst-8:after, #burst-8:before {
+    height: 100px!important;
+    width: 100px!important;
+    font-size: 70px!important;
+  }
+  
+  #burst-8 {
+    height: 100px!important;
+    min-width: 106px!important;
+    font-size: 70px!important;
+  }
+
+  #login {
+    font-size: 14px!important;
+  }
+}
+@media screen and (max-width : 767px)
+{
+  .myPhotos
+  {
+    margin-top: 15px;
+    font-size: 25px!important;
+  }
+  #burst-8 {
+    top:0px!important;
+  }
+  #login, .feed {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width : 460px)
+{
+    #burst-8 {
+    min-width: 100px;
+  }
+}
+
+body {
+    background-image: url("./Header_BG1.png");
+}
+
+.navbar {
+    background-image: url("./Header_BG1.png");
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    background-color: red;
+}
+
+ hr {
+    border-top: #d1bf92 dashed 1px;
+    border-bottom:#696666 dashed 1px;
+    box-shadow: 0 10px 10px -10px #8c8c8c inset;
+}
+
+.navLink {
+  font-family: 'Paytone One', sans-serif;
+    font-size: 54px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    color: #f9ebd9;
+}
+
+#burst-8 {
+    z-index: 1;
+    flex: initial;
+    /* width: 130px; */
+    max-width: 12.666667%;
+    height: 130px;
+    position: relative;
+    top:20px;
+    text-align: center;
+    transform: rotate(20deg);
+    border: 3px gray solid;
+    border-radius: 10px;
+    background: url("./Contact_section_BG.png");
+  }
+
+  #burst-8:before, #burst-8:after {
+    border-radius: 10px;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 130px;
+    width: 130px;
+    transform: rotate(125deg);
+    background: url("./Contact_section_BG.png");
+  }
+
+  #burst-8:before {
+    border-top: 3px gray solid;
+    width: 130px;
+    height: 130px;
+    border-bottom: 3px gray solid;
+  }
+
+  #burst-8:after {
+    font-family: 'Bungee Inline', cursive;  
+    text-shadow: 2px 3px 0px rgba(0,0,0,0.15), 2px 2px 0px #f9ebd9;  
+    vertical-align: middle;
+    text-align: center;
+    color: #f6edd8;
+    font-size: 90px;
+    letter-spacing: 0.94px;
+    content: "PE";
+    width: 130px;
+    height: 130px;
+    transform: rotate(-25deg);
+  }
+  .pe {
+    text-align: center;
+    color: #f6edd8;
+    font-size: 188px;
+    letter-spacing: 0.94px;
+  }
+ .navbar a:not([href]):not([tabindex]) {
+    color: #f9ebd9;
+  }
+
+  .myPhotos {
+    text-align: center;
+  }
+
+  #login {
+      z-index: 1;
+      font-size: 18px;
+      padding-left: 0px;
+      padding-right: 0px;
+  }
+
+  .hrUp {
+    position: relative;
+    top: -50px;
+  }
