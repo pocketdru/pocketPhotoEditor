@@ -69,8 +69,8 @@ function ControlledCarousel() {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>Explore all the features and effects.</h3>
-            <p>You can crop, shrink, add an effect, apply filter, change the size.</p>
+            <h3>Create account</h3>
+            <p>To start edit today.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -80,8 +80,8 @@ function ControlledCarousel() {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>Create account</h3>
-            <p>To start edit today.</p>
+          <h3>Explore all the features and effects.</h3>
+          <p>You can crop, shrink, add an effect, apply filter, change the size.</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
