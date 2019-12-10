@@ -1,0 +1,13 @@
+.about-app {
+    background-image: url("About_section_BG.png");
+}
+
+.aboutApp-h2 {
+    font-family: 'Bungee Inline', cursive;;
+    text-shadow: 3px 3px 0 #fcfaf7;
+    color: #393a3a;
+    font-size: 65px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}

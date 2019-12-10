@@ -48,7 +48,7 @@ const mainCarousel = () => {
                 </div>
             </div>
             <div className="row">
-                <div className="col-md-12 d-flex justify-content-center welcome-slogan m-5">
+                <div className="col-md-12 d-flex justify-content-center welcome-slogan mt-5">
                     <div>
                         <h2>Welcome to your pocket pics edtior</h2>
                         <p>Edit your photos and share with friends!</p>
