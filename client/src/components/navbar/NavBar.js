@@ -11,9 +11,9 @@ const NavBar = () => {
 
  return (
 <div className="container">
-  <div className="row">
-    <div className="col-md-12">
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+  <div className="row nav">
+    <div className="col-md-12 nav-hr">
+      <nav className="navbar navbar-expand-lg">
         <div className="collapse navbar-collapse d-flex justify-content-around row" id="navbarSupportedContent">
           <a className="navLink col-md-5 feed" href="#">Feed</a>
           <div className="col-md-2" id="burst-8"></div>
