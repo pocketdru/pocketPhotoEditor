@@ -19,7 +19,7 @@ const mainCarousel = () => {
                 </div>
             </div>
             <div className="row">
-                <div className="col-md-2 d-flex align-content-end flex-wrap">
+                <div className="col-md-2 d-flex align-content-center flex-wrap justify-content-end">
                     <span className="dot"></span>
                     <span className="dot"></span>
                     <span className="dot"></span>
@@ -35,7 +35,7 @@ const mainCarousel = () => {
                     <ColoredLine className="hr" id="hrUp"/>
                     <ColoredLine className="hr" id="hrDown"/>
                 </div>
-                <div className="col-md-2 d-flex align-content-end flex-wrap">
+                <div className="col-md-2 d-flex align-content-center flex-wrap">
                     <span className="dot"></span>
                     <span className="dot"></span>
                     <span className="dot"></span>

@@ -1,6 +1,6 @@
 @media screen and (max-width : 992px) {
     .mainRec {
-        max-width: 73%!important;
+        max-width: 72%!important;
     }
 
     .ribbon-text {
@@ -55,7 +55,7 @@
     }
 }
 
-@media screen and (max-width : 365px) {
+@media screen and (max-width : 378px) {
     .rightRec, .sideRec {
         width: 35px!important;
     }
@@ -183,8 +183,4 @@
     border-bottom: 2px;
     margin-top: -50px;
     padding-top: 20px;
-}
-
-.main-carousel #hrUp {
-    margin-top: 2em;
 }
