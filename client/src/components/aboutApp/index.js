@@ -8,7 +8,7 @@ const AboutApp = () => {
         <div className="container about-app">
             <div className="row d-flex justify-content-center">
                 <div className="col-md-8">
-                        <h2 className="aboutApp-h2">
+                        <h2 className="aboutApp-h2 mt-4">
                             About App
                         </h2>
                         <div className="d-flex justify-content-center">

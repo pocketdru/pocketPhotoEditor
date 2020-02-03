@@ -55,8 +55,8 @@ const mainCarousel = () => {
                     </div>
                 </div>
             </div>
-            <ColoredLine className="hr" id="hrUp"/>
-            <ColoredLine className="hr" id="hrDown"/>
+            <ColoredLine className="hr" id="upAbout"/>
+            <ColoredLine className="hr" id="downAbout"/>
         </div>
 
     );

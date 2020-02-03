@@ -184,3 +184,13 @@
     margin-top: -50px;
     padding-top: 20px;
 }
+
+#upAbout {
+    position: relative;
+    top: 10px;
+}
+
+#downAbout {
+    position: relative;
+    top: 5px;
+}
