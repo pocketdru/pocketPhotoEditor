@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700&display=swap');
+
 .about-app {
     background-image: url("About_section_BG.png");
     margin-top: -15px;
@@ -24,4 +26,33 @@
 
 .x {
    width: 5%;
+}
+
+.about-desc {
+    color: #38353e;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.card-group {
+    border: none;
+}
+
+.card {
+    background-image: url("About_section_BG.png");
+    border: none;
+}
+
+.er {
+    background: red;
+    border-radius: 100%!important;
+    width: 50%!important;
+    height: 50%!important;
+    margin: 0 auto;
+    /* border-image: url("About_section_BG.png") 20px; */
+    /* border-image-source: url("About_section_BG.png");
+    border-image-outset: 20px; */
+    border: 4px solid white;
 }
