@@ -15,7 +15,7 @@
     "react-native": "^0.61.5",
     "react-native-responsive-fontsize": "^0.4.2",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.2.0"
+    "react-scripts": "^3.4.0"
   },
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
@@ -42,5 +42,17 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.1"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pocketdru/pocketPhotoEditor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pocketdru/pocketPhotoEditor/issues"
+  },
+  "homepage": "https://github.com/pocketdru/pocketPhotoEditor#readme"
 }
