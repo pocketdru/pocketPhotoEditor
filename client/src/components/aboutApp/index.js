@@ -21,31 +21,43 @@ const AboutApp = () => {
                 </div>
                 <div className="col-md-12">
                     <div className="card-group">
-                        <div class="card">
+                        <div className="card">
                             <img src="images/about/1.png" className="card-img-top er" alt="..."/>
                             <div className="card-body">
                             <h5 className="card-title">MOVIES</h5>
                             <h6>WHAT I WATCH</h6>
-                            <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                            <p className="card-text">Clutter is honest! I do believe that has to the users
+                                selfexpression. Care. Things which is a projector operating system such formats are deep and profound and meaningful. It's the traditions of data. Good design should be different levels. There's no rational alternative. That's come to complexity.</p>
                             </div>
                         </div>
                         <div className="card">
-                            <img src="..." className="card-img-top" alt="..."/>
+                            <img src="images/about/1.png" className="card-img-top er" alt="..."/>
                             <div className="card-body">
-                            <h5 className="card-title">Card title</h5>
-                            <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                            <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                            <h5 className="card-title">MOVIES</h5>
+                            <h6>WHAT I WATCH</h6>
+                            <p className="card-text">Clutter is honest! I do believe that has to the users
+                                selfexpression. Care. Things which is a projector operating system such formats are deep and profound and meaningful. It's the traditions of data. Good design should be different levels. There's no rational alternative. That's come to complexity.</p>
                             </div>
                         </div>
                         <div className="card">
-                            <img src="..." className="card-img-top" alt="..."/>
+                            <img src="images/about/1.png" className="card-img-top er" alt="..."/>
                             <div className="card-body">
-                            <h5 className="card-title">Card title</h5>
-                            <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                            <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                            <h5 className="card-title">MOVIES</h5>
+                            <h6>WHAT I WATCH</h6>
+                            <p className="card-text">Clutter is honest! I do believe that has to the users
+                                selfexpression. Care. Things which is a projector operating system such formats are deep and profound and meaningful. It's the traditions of data. Good design should be different levels. There's no rational alternative. That's come to complexity.</p>
                             </div>
                         </div>
+                        <div className="card">
+                            <img src="images/about/1.png" className="card-img-top er" alt="..."/>
+                            <div className="card-body">
+                            <h5 className="card-title">MOVIES</h5>
+                            <h6>WHAT I WATCH</h6>
+                            <p className="card-text">Clutter is honest! I do believe that has to the users
+                                selfexpression. Care. Things which is a projector operating system such formats are deep and profound and meaningful. It's the traditions of data. Good design should be different levels. There's no rational alternative. That's come to complexity.</p>
+                            </div>
+                        </div>
+                        
                         </div>
                 </div>
             </div>

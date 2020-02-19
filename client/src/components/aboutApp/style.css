@@ -50,7 +50,6 @@
     background: red;
     border-radius: 100%!important;
     width: 50%!important;
-    height: 50%!important;
     margin: 0 auto;
     /* border-image: url("About_section_BG.png") 20px; */
     /* border-image-source: url("About_section_BG.png");
@@ -74,4 +73,12 @@
     font-weight: 400;
     text-transform: uppercase;
     text-align: center;
+}
+
+.about-app .card-text {
+    color: #383a3c;
+    font-family: "Roboto Slab";
+    font-size: 10px;
+    font-weight: 400;
+    text-decoration: underline;
 }
