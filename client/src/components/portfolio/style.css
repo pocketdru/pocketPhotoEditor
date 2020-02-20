@@ -20,3 +20,13 @@
     margin-bottom: auto;
     width: 5%;
 }
+
+.portfolio .fa-bookmark {
+    width: 46px;
+    height: 120px;
+}
+
+.fa-layers-text {
+    left: 130%;
+    top: 53%;
+}

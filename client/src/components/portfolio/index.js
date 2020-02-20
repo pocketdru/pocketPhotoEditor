@@ -19,6 +19,15 @@ const Portfolio = () => {
                     <p className="about-desc text-center mt-2">The app gives you multiple opportunities to edit your photos</p>
                 </div>
             </div>
+            <div className="row">
+                <div className="col-md-8">
+                <span className="fa-layers fa-fw">
+                    <i className="fa fa-bookmark" data-fa-transform="rotate--270"></i>
+                    <span className="fa-layers-text fa-inverse">NEW</span>
+                </span>
+                </div>
+                <div className="col-md-10"></div>
+            </div>
         </div>
     )
 }
