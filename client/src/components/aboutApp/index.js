@@ -26,6 +26,7 @@ const AboutApp = () => {
                             <div className="card-body">
                             <h5 className="card-title">MOVIES</h5>
                             <h6>WHAT I WATCH</h6>
+                            <hr className="hr"></hr>
                             <p className="card-text">Clutter is honest! I do believe that has to the users
                                 selfexpression. Care. Things which is a projector operating system such formats are deep and profound and meaningful. It's the traditions of data. Good design should be different levels. There's no rational alternative. That's come to complexity.</p>
                             </div>
@@ -35,6 +36,7 @@ const AboutApp = () => {
                             <div className="card-body">
                             <h5 className="card-title">MOVIES</h5>
                             <h6>WHAT I WATCH</h6>
+                            <hr className="hr"></hr>
                             <p className="card-text">Clutter is honest! I do believe that has to the users
                                 selfexpression. Care. Things which is a projector operating system such formats are deep and profound and meaningful. It's the traditions of data. Good design should be different levels. There's no rational alternative. That's come to complexity.</p>
                             </div>
@@ -44,6 +46,7 @@ const AboutApp = () => {
                             <div className="card-body">
                             <h5 className="card-title">MOVIES</h5>
                             <h6>WHAT I WATCH</h6>
+                            <hr className="hr"></hr>
                             <p className="card-text">Clutter is honest! I do believe that has to the users
                                 selfexpression. Care. Things which is a projector operating system such formats are deep and profound and meaningful. It's the traditions of data. Good design should be different levels. There's no rational alternative. That's come to complexity.</p>
                             </div>
@@ -53,6 +56,7 @@ const AboutApp = () => {
                             <div className="card-body">
                             <h5 className="card-title">MOVIES</h5>
                             <h6>WHAT I WATCH</h6>
+                            <hr className="hr"></hr>
                             <p className="card-text">Clutter is honest! I do believe that has to the users
                                 selfexpression. Care. Things which is a projector operating system such formats are deep and profound and meaningful. It's the traditions of data. Good design should be different levels. There's no rational alternative. That's come to complexity.</p>
                             </div>
