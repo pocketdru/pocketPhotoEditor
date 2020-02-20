@@ -22,7 +22,7 @@ const AboutApp = () => {
                 <div className="col-md-12">
                     <div className="card-group">
                         <div className="card">
-                            <img src="images/about/1.png" className="card-img-top er" alt="..."/>
+                            <img src="images/about/tv.png" className="card-img-top er" alt="..."/>
                             <div className="card-body">
                             <h5 className="card-title">MOVIES</h5>
                             <h6>WHAT I WATCH</h6>
@@ -31,7 +31,7 @@ const AboutApp = () => {
                             </div>
                         </div>
                         <div className="card">
-                            <img src="images/about/1.png" className="card-img-top er" alt="..."/>
+                            <img src="images/about/index.png" className="card-img-top er" alt="..."/>
                             <div className="card-body">
                             <h5 className="card-title">MOVIES</h5>
                             <h6>WHAT I WATCH</h6>
@@ -40,7 +40,7 @@ const AboutApp = () => {
                             </div>
                         </div>
                         <div className="card">
-                            <img src="images/about/1.png" className="card-img-top er" alt="..."/>
+                            <img src="images/about/t-shirt.png" className="card-img-top er" alt="..."/>
                             <div className="card-body">
                             <h5 className="card-title">MOVIES</h5>
                             <h6>WHAT I WATCH</h6>
@@ -49,7 +49,7 @@ const AboutApp = () => {
                             </div>
                         </div>
                         <div className="card">
-                            <img src="images/about/1.png" className="card-img-top er" alt="..."/>
+                            <img src="images/about/food.png" className="card-img-top er" alt="..."/>
                             <div className="card-body">
                             <h5 className="card-title">MOVIES</h5>
                             <h6>WHAT I WATCH</h6>
