@@ -8,9 +8,20 @@
 }
 
 @media screen and (max-width : 767px) {
-    .dot {
-        margin: 15px auto!important;
-   
+    .about-app .er {
+        max-height: 10% !important;
+        border: 2px solid white !important;
+
+    }  
+}
+
+@media screen and (max-width : 575px) {
+    .about-app .er {
+        max-height: 5% !important;
+        max-width: 35% !important;
+        border: 7px solid white !important;
+    }  
+}
 
 .about-app {
     background-image: url("About_section_BG.png");
