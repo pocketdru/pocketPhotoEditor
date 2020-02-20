@@ -16,7 +16,7 @@ const AboutApp = () => {
                             <img src={X} className="x"></img>
                             <img src={Rectangle} className="rectangle"></img>
                         </div>
-                        <p className="about-desc text-center mt-2">The app gives you multiple opportunities to edit your photos</p>
+                        <p className="about-desc text-center mt-2">SIMPLICITY IS THE ULTIMATE SOPHISTICATION</p>
 
                 </div>
                 <div className="col-md-12">

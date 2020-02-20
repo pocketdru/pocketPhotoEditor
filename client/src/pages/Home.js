@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import MainCarousel from "../components/mainCarousel";
 import AboutApp from "../components/aboutApp";
+import Portfolio from "../components/portfolio";
 
 class Home extends Component {
 
@@ -9,6 +10,7 @@ class Home extends Component {
             <div>
                 <MainCarousel/>
                 <AboutApp/>
+                <Portfolio/>
             </div>
         )
     }
