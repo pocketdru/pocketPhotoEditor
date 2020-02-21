@@ -21,12 +21,44 @@
     width: 5%;
 }
 
-.portfolio .fa-bookmark {
-    width: 46px;
-    height: 120px;
+.portfolio .fa-layers {
+    margin: 0px 20px;
+}
+
+.portfolio .fa-layers svg {
+    box-shadow: 7px 2px -3px rgba(0, 0, 0, 0.2);
+    color: #fbfaf6;
+}
+
+.portfolio .fa-bookmark  {
+    width: 40px;
+    height: 30px
+}
+
+.portfolio .fa-bookmark g {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    background-color: #fbfaf6;
 }
 
 .fa-layers-text {
     left: 130%;
-    top: 53%;
+    top: 50%;
+    font-size: 6px;
+    color: #383a3c;
+}
+
+.portfolio .card {
+    height: 14px;
+    width: 55px;
+    background-color: inherit;
+    border: none;
+}
+
+.portfolio .card-text {
+    color: #383a3c;
+    font-size: 5px;
+}
+
+.portfolio .card-img-overlay {
+    padding: 1%;
 }
