@@ -21,13 +21,17 @@
     width: 5%;
 }
 
+.portfolio .portfolio-tags .btn-group {
+    width: inherit;
+}
+
 .portfolio .portfolio-tags .btn-group .btn {
     height: 15px;
-    width: 70px;
+    width: 71px;
     background-color: inherit;
     border: none;
     padding: 0;
-    margin: 0px 4%;
+    margin: 0px 2%;
     box-shadow: 7px 1px 7px rgba(0, 0, 0, 0.2);
 }
 
@@ -45,9 +49,11 @@
 
 .portfolio .portfolio-tags .card-text {
     color: #383a3c;
-    font-size: 7px;
+    font-size: 13px;
+    font-family: "Roboto Slab";
+    font-weight: 700;
 }
 
 .portfolio  .portfolio-tags .card-img-overlay {
-    padding: 2%;
+    padding: 0%;
 }

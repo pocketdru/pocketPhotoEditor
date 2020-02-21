@@ -24,8 +24,9 @@ const Portfolio = () => {
             </div>
             {/* Button group */}
             <div className="row mt-4">
-                <div className="col-md-8 portfolio-tags">
+                <div className="col-md-10 portfolio-tags">
                     <div className="btn-group" role="group" aria-label="Basic example">
+                        <p className="card-text">Filter by</p>
                         <button type="button" className="btn btn-secondary" id="btn">
                         <div className="card">
                             <img src={Tag} className="card-img" alt="..."/>
@@ -100,7 +101,7 @@ const Portfolio = () => {
                     </div>
                 </div>
                 {/* Card group  */}
-                <div className="col-md-10 portfolio-cards">
+                <div className="col-md-12 portfolio-cards">
                 <div className="card-group">
                     <div className="card">
                         <img src="..." className="card-img-top" alt="..."/>
