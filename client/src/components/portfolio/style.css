@@ -21,44 +21,33 @@
     width: 5%;
 }
 
-.portfolio .fa-layers {
-    margin: 0px 20px;
+.portfolio .btn-group .btn {
+    height: 15px;
+    width: 70px;
+    background-color: inherit;
+    border: none;
+    padding: 0;
+    margin: 0px 4%;
+    box-shadow: 7px 1px 7px rgba(0, 0, 0, 0.2);
 }
 
-.portfolio .fa-layers svg {
-    box-shadow: 7px 2px -3px rgba(0, 0, 0, 0.2);
-    color: #fbfaf6;
-}
-
-.portfolio .fa-bookmark  {
-    width: 40px;
-    height: 30px
-}
-
-.portfolio .fa-bookmark g {
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-    background-color: #fbfaf6;
-}
-
-.fa-layers-text {
-    left: 130%;
-    top: 50%;
-    font-size: 6px;
-    color: #383a3c;
+.portfolio #btn:active {
+    background-color: inherit;
+    box-shadow: none;
 }
 
 .portfolio .card {
-    height: 14px;
-    width: 55px;
+    height: inherit;
+    width: inherit;
     background-color: inherit;
     border: none;
 }
 
 .portfolio .card-text {
     color: #383a3c;
-    font-size: 5px;
+    font-size: 7px;
 }
 
 .portfolio .card-img-overlay {
-    padding: 1%;
+    padding: 2%;
 }
