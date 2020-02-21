@@ -21,7 +21,7 @@
     width: 5%;
 }
 
-.portfolio .btn-group .btn {
+.portfolio .portfolio-tags .btn-group .btn {
     height: 15px;
     width: 70px;
     background-color: inherit;
@@ -31,23 +31,23 @@
     box-shadow: 7px 1px 7px rgba(0, 0, 0, 0.2);
 }
 
-.portfolio #btn:active {
+.portfolio .portfolio-tags #btn:active {
     background-color: inherit;
     box-shadow: none;
 }
 
-.portfolio .card {
+.portfolio .portfolio-tags .card {
     height: inherit;
     width: inherit;
     background-color: inherit;
     border: none;
 }
 
-.portfolio .card-text {
+.portfolio .portfolio-tags .card-text {
     color: #383a3c;
     font-size: 7px;
 }
 
-.portfolio .card-img-overlay {
+.portfolio  .portfolio-tags .card-img-overlay {
     padding: 2%;
 }

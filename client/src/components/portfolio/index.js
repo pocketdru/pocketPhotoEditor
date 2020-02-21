@@ -24,7 +24,7 @@ const Portfolio = () => {
             </div>
             {/* Button group */}
             <div className="row mt-4">
-                <div className="col-md-8">
+                <div className="col-md-8 portfolio-tags">
                     <div className="btn-group" role="group" aria-label="Basic example">
                         <button type="button" className="btn btn-secondary" id="btn">
                         <div className="card">
@@ -99,7 +99,77 @@ const Portfolio = () => {
                         </button>
                     </div>
                 </div>
-                <div className="col-md-10"></div>
+                {/* Card group  */}
+                <div className="col-md-10 portfolio-cards">
+                <div className="card-group">
+                    <div className="card">
+                        <img src="..." className="card-img-top" alt="..."/>
+                        <div className="card-body">
+                        <h5 className="card-title">Card title</h5>
+                        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    <div className="card">
+                        <img src="..." className="card-img-top" alt="..."/>
+                        <div className="card-body">
+                        <h5 className="card-title">Card title</h5>
+                        <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    <div className="card">
+                        <img src="..." className="card-img-top" alt="..."/>
+                        <div className="card-body">
+                        <h5 className="card-title">Card title</h5>
+                        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    <div className="card">
+                        <img src="..." className="card-img-top" alt="..."/>
+                        <div className="card-body">
+                        <h5 className="card-title">Card title</h5>
+                        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    </div>
+                    <div className="card-group">
+                    <div className="card">
+                        <img src="..." className="card-img-top" alt="..."/>
+                        <div className="card-body">
+                        <h5 className="card-title">Card title</h5>
+                        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    <div className="card">
+                        <img src="..." className="card-img-top" alt="..."/>
+                        <div className="card-body">
+                        <h5 className="card-title">Card title</h5>
+                        <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    <div className="card">
+                        <img src="..." className="card-img-top" alt="..."/>
+                        <div className="card-body">
+                        <h5 className="card-title">Card title</h5>
+                        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    <div className="card">
+                        <img src="..." className="card-img-top" alt="..."/>
+                        <div className="card-body">
+                        <h5 className="card-title">Card title</h5>
+                        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
             </div>
         </div>
     )
