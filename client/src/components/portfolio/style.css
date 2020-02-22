@@ -57,3 +57,8 @@
 .portfolio  .portfolio-tags .card-img-overlay {
     padding: 0%;
 }
+
+.portfolio-cards .card{
+    padding: 2%;
+    margin: 0px 2%;
+}
