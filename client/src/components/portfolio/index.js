@@ -26,7 +26,7 @@ const Portfolio = () => {
             <div className="row mt-4">
                 <div className="col-md-10 portfolio-tags">
                     <div className="btn-group" role="group" aria-label="Basic example">
-                        <p className="card-text">Filter by</p>
+                        <h6 className="card-text">Filter by</h6>
                         <button type="button" className="btn btn-secondary" id="btn">
                         <div className="card">
                             <img src={Tag} className="card-img" alt="..."/>
