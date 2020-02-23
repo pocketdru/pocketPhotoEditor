@@ -69,3 +69,12 @@
     padding: 2%;
     margin: 0px 2%;
 }
+
+.portfolio-cards .card .card-title {
+    position: absolute;
+    bottom: 5%;
+    left: 40%;
+    background-color: white;
+    padding: 9px;
+    border-radius: 27%;
+}

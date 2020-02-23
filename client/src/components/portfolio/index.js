@@ -106,7 +106,7 @@ const Portfolio = () => {
                     <div className="card">
                         <img src="images/portfolio/airport.png" className="card-img-top" alt="..."/>
                         <div className="card-body">
-                            <h5 className="card-title">Card title</h5>
+                            <img src="images/portfolio/icons/photo.png" className="card-title"></img>
                         </div>
                     </div>
                     <div className="card">
