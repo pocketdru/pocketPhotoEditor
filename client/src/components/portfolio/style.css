@@ -1,3 +1,34 @@
+@media screen and (max-width : 1200px) {
+    .portfolio .portfolio-tags .btn-group .btn {
+        height: 12px!important;
+    }
+
+    .portfolio .portfolio-tags .card-text {
+        font-size: 7px!important;
+    }
+
+    .portfolio .portfolio-tags .card-img-overlay {
+        top: 0px!important;
+    }
+}
+
+@media screen and (max-width : 992px) {
+    .portfolio-cards .card .card-title {
+        left: 38%!important;
+        width: 25%!important;
+    }
+
+    .portfolio .portfolio-tags .btn-group .btn {
+        height: 9px!important;
+    } 
+}
+
+@media screen and (max-width : 767px) {
+    .portfolio .portfolio-tags .btn-group .btn {
+        height: 9px!important;
+    } 
+}
+
 .portfolio {
     background-image: url("Portfolio_section_BG.png");
     margin-top: -15px;
@@ -31,7 +62,7 @@
 }
 
 .portfolio .portfolio-tags .btn-group .btn {
-    height: 18px;
+    height: 14px;
     width: 50px;
     background-color: inherit;
     border: none;
@@ -59,7 +90,7 @@
 
 .portfolio  .portfolio-tags .card-img-overlay {
     padding: 0%;
-    top: -1px;
+    top: -2px;
     right: 0px;
     bottom: 0px;
     left: 2px;
@@ -77,4 +108,5 @@
     background-color: white;
     padding: 12px;
     border-radius: 35%;
+    width: 20%;
 }

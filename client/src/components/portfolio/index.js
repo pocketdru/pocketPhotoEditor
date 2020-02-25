@@ -24,7 +24,7 @@ const Portfolio = () => {
             </div>
             {/* Button group */}
             <div className="row mt-4">
-                <div className="col-md-10 portfolio-tags">
+                <div className="col-md-10 col-sm-12 portfolio-tags">
                     <div className="btn-group" role="group" aria-label="Basic example">
                         <h6 className="card-text">Filter by</h6>
                         <button type="button" className="btn btn-secondary" id="btn">
@@ -132,25 +132,25 @@ const Portfolio = () => {
                     <div className="card">
                         <img src="images/portfolio/abstract.png" className="card-img-top" alt="..."/>
                         <div className="card-body">
-                            <h5 className="card-title">Card title</h5>
+                            <img src="images/portfolio/icons/tv.png" className="card-title"></img>                        
                         </div>
                     </div>
                     <div className="card">
                         <img src="images/portfolio/airport.png" className="card-img-top" alt="..."/>
                         <div className="card-body">
-                            <h5 className="card-title">Card title</h5>
+                            <img src="images/portfolio/icons/sound.png" className="card-title"></img>                        
                         </div>
                     </div>
                     <div className="card">
                         <img src="images/portfolio/canon.png" className="card-img-top" alt="..."/>
                         <div className="card-body">
-                            <h5 className="card-title">Card title</h5>
+                            <img src="images/portfolio/icons/clip.png" className="card-title"></img>                        
                         </div>
                     </div>
                     <div className="card">
                         <img src="images/portfolio/fireworks.png" className="card-img-top" alt="..."/>
                         <div className="card-body">
-                            <h5 className="card-title">Card title</h5>
+                            <img src="images/portfolio/icons/note.png" className="card-title"></img>                        
                         </div>
                     </div>
                     </div>
