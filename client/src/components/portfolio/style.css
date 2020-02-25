@@ -26,7 +26,31 @@
 @media screen and (max-width : 767px) {
     .portfolio .portfolio-tags .btn-group .btn {
         height: 9px!important;
-    } 
+    }
+    
+    .portfolio-cards .card .card-title {
+        bottom: 12%!important;
+        left: 38%!important;
+        width: 25%!important;
+        padding: 7px!important;
+    }
+}
+
+@media screen and (max-width : 575px) {
+    .portfolio .portfolio-tags .btn-group .btn {
+        height: 9px!important;
+    }
+    
+    .portfolio-cards .card .card-title {
+        bottom: -1%!important;
+        left: 41%!important;
+        width: 18%!important;
+        padding: 17px!important;
+    }
+
+    .card-body {
+        padding: 2.25rem!important;
+    }
 }
 
 .portfolio {
