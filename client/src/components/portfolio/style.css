@@ -72,9 +72,9 @@
 
 .portfolio-cards .card .card-title {
     position: absolute;
-    bottom: 5%;
-    left: 40%;
+    bottom: 6%;
+    left: 39%;
     background-color: white;
-    padding: 9px;
-    border-radius: 27%;
+    padding: 12px;
+    border-radius: 35%;
 }

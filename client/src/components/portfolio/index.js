@@ -112,19 +112,19 @@ const Portfolio = () => {
                     <div className="card">
                         <img src="images/portfolio/abstract.png" className="card-img-top" alt="..."/>
                         <div className="card-body">
-                            <h5 className="card-title">Card title</h5>
+                            <img src="images/portfolio/icons/clip.png" className="card-title"></img>
                         </div>
                     </div>
                     <div className="card">
                         <img src="images/portfolio/fireworks.png" className="card-img-top" alt="..."/>
                         <div className="card-body">
-                            <h5 className="card-title">Card title</h5>
+                            <img src="images/portfolio/icons/note.png" className="card-title"></img>
                         </div>
                     </div>
                     <div className="card">
                         <img src="images/portfolio/canon.png" className="card-img-top" alt="..."/>
                         <div className="card-body">
-                            <h5 className="card-title">Card title</h5>
+                            <img src="images/portfolio/icons/tv.png" className="card-title"></img>                        
                         </div>
                     </div>
                     </div>
