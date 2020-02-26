@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald:400,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap');
 
+@media screen and (max-width : 1200px) {
+    .about-app .er {
+        max-width: 50%!important;
+    }
+}
+
 @media screen and (max-width : 992px) {
     .about-app .er {
         max-height: 20% !important;
@@ -11,14 +17,18 @@
     .about-app .er {
         max-height: 10% !important;
         border: 2px solid white !important;
-
     }  
+
+    .about-app .card h5 {
+        font-size: 20px!important
+    }
+
 }
 
 @media screen and (max-width : 575px) {
     .about-app .er {
         max-height: 5% !important;
-        max-width: 35% !important;
+        max-width: 42% !important;
         border: 7px solid white !important;
     }  
 }
