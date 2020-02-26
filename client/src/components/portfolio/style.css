@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
 @media screen and (max-width : 1200px) {
     .portfolio .portfolio-tags .btn-group .btn {
         height: 12px!important;
@@ -133,4 +135,19 @@
     padding: 12px;
     border-radius: 35%;
     width: 20%;
+}
+
+.portfolio .browse-all a {
+    color: #38353e;
+    font-family: Oswald;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;    
+}
+
+.portfolio .line hr {
+    width: 50px;
+    height: 2px;
+    background-color: #383a3c;
 }
