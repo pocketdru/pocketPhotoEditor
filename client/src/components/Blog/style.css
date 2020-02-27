@@ -20,3 +20,33 @@
     border: 3px solid #fbfaf6;;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
 }
+
+.blog .card .card-body {
+    padding-top: 0;
+}
+
+.blog .card .card-body .card-title {
+    color: #383a3c;
+    font-family: "Roboto Slab";
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.blog .card .card-body .date {
+    color: #383a3c;
+    font-family: Oswald;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.blog .card .card-body .card-text {
+    color: #383a3c;
+    font-family: "Roboto Slab";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.blog .line hr {
+    margin-left: unset;
+}

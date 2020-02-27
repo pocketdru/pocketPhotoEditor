@@ -28,9 +28,10 @@ const Blog = () => {
                         </div>
                         <div className="col-md-8">
                             <div className="card-body">
-                                <h5 className="card-title">Card title</h5>
-                                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                                <h5 className="card-title">The Magic Wheel</h5>
+                                <p className="card-text"><span className="date">JULY 28, 2014 // ADMIN // FUN, TRAVEL, TRENDS</span></p>
+                                <span className="line"><hr></hr></span>
+                                <p className="card-text">Etiam enim velit, cursus ut dapibus sed, egestas ac ipsum. Proin et cursus ante. Curabitur convallis ante sollicitudin, sollicitudin diam vel, auctor mauris. Phasellus pretium ligula id viverra scelerisque. Nullam pellentesque, arcu vel eleifend maximus, nunc quam placerat mauris, vitae ultrices metus augue non ex. Curabitur euismod ante nec dapibus mollis. Duis viverra mi eu convallis vulputate.</p>
                             </div>
                         </div>
                     </div>
@@ -42,9 +43,10 @@ const Blog = () => {
                         </div>
                         <div className="col-md-8">
                             <div className="card-body">
-                                <h5 className="card-title">Card title</h5>
-                                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                                <h5 className="card-title">The lonely road</h5>
+                                <p className="card-text"><span className="date">JULY 28, 2014 // ADMIN // FUN, TRAVEL, TRENDS, WEB DESIGN</span></p>
+                                <span className="line"><hr></hr></span>
+                                <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ornare condimentum mi nec pretium. Etiam enim velit, cursus ut dapibus sed, egestas ac ipsum. Proin et cursus ante. Curabitur convallis ante sollicitudin, sollicitudin diam vel, auctor mauris. Phasellus pretium ligula id viverra scelerisque. Nullam pellentesque, arcu vel eleifend maximus, nunc quam placerat mauris, vitae ultrices metus augue non ex. Curabitur euismod ante nec dapibus mollis. Duis viverra mi eu convallis vulputate.</p>
                             </div>
                         </div>
                     </div>
@@ -56,9 +58,10 @@ const Blog = () => {
                         </div>
                         <div className="col-md-8">
                             <div className="card-body">
-                                <h5 className="card-title">Card title</h5>
-                                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                                <h5 className="card-title">My Favorite Flowers</h5>
+                                <p className="card-text"><span className="date">JULY 28, 2014 // ADMIN // FUN, TRENDS, WEB DESIGN</span></p>
+                                <span className="line"><hr></hr></span>
+                                <p className="card-text">Mauris ornare condimentum mi nec pretium. Etiam enim velit, cursus ut dapibus sed, egestas ac ipsum. Proin et cursus ante. Curabitur convallis ante sollicitudin, sollicitudin diam vel, auctor mauris. Phasellus pretium ligula id viverra scelerisque. Nullam pellentesque, arcu vel eleifend maximus, nunc quam placerat mauris, vitae ultrices metus augue non ex.</p>
                             </div>
                         </div>
                     </div>
