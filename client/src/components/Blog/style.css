@@ -9,3 +9,14 @@
     margin-bottom: auto;
     width: 5%;
 }
+
+.blog .card {
+    background: inherit;
+    border: none;
+    padding: 2%;
+}
+
+.blog .card .card-img {
+    border: 3px solid #fbfaf6;;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
