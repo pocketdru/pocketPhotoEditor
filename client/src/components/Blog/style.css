@@ -1,0 +1,11 @@
+.blog {
+    background-image: url("Blog_section_BG.png");
+    margin-top: -15px;
+}
+
+.blog .rectangle {
+    height: 2px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 5%;
+}

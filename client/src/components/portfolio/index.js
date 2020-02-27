@@ -156,7 +156,7 @@ const Portfolio = () => {
                     </div>
                 </div>
             </div>
-            <div className="row justify-content-center mt-2">
+            <div className="row justify-content-center mt-2 pb-4">
                 <div className="col-md-4 browse-all">
                     <span className="line"><hr></hr></span>
                         <a className="browse-all">BROWSE ALL
