@@ -47,6 +47,6 @@
     font-weight: 400;
 }
 
-.blog .line hr {
+.blog .card-body .line hr {
     margin-left: unset;
 }

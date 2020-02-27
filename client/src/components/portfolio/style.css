@@ -137,8 +137,8 @@
     width: 20%;
 }
 
-.portfolio .browse-all a {
-    color: #38353e;
+.browse-all a {
+    color: #38353e!important;
     font-family: Oswald;
     font-size: 15px;
     font-weight: 700;
