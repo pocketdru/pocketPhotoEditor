@@ -3,6 +3,7 @@ import MainCarousel from "../components/mainCarousel";
 import AboutApp from "../components/aboutApp";
 import Portfolio from "../components/portfolio";
 import Blog from "../components/Blog";
+import ContactMe from "../components/contactMe";
 
 class Home extends Component {
 
@@ -13,6 +14,8 @@ class Home extends Component {
                 <AboutApp/>
                 <Portfolio/>
                 <Blog/>
+                <ContactMe/>
+
             </div>
         )
     }
