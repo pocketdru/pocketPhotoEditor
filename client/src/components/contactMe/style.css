@@ -25,5 +25,22 @@
 }
 
 .contact .form-group {
-    margin: 0 auto;
+    margin: 1% auto;
+}
+
+.contact .form-group .form-control {
+    box-shadow: 1px 1px 0 rgba(255, 255, 255, 0.4), inset 1px 1px 0 rgba(0, 0, 0, 0.2);
+    color: #a9a9a9;
+    font-family: "Roboto Slab";
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.contact .btn {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    background-color: #fcfaf7;
+    color: #383a3c;
+    font-family: "Roboto Slab";
+    font-size: 15px;
+    font-weight: 700;
 }
