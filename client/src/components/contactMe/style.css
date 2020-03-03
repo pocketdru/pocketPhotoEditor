@@ -1,0 +1,25 @@
+.contact {
+    background-image: url("Contact_section_BG.png");
+    margin-top: -15px;
+}
+
+.contact .rectangle {
+    height: 2px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 5%;
+    color: #f6edd8;
+}
+
+.contact .x {
+    color: #f6edd8;
+}
+
+.contact .portfolio-h2 {
+    color: #f6edd8;
+    text-shadow: 5px 3px 0 #484a4d;
+}
+
+.contact .about-desc {
+    color: #f6edd8;
+}
