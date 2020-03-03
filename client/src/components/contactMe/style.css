@@ -23,3 +23,7 @@
 .contact .about-desc {
     color: #f6edd8;
 }
+
+.contact .form-group {
+    margin: 0 auto;
+}
