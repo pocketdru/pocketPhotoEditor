@@ -2,6 +2,8 @@ import React from "react";
 import "./style.css";
 import X from "./x.png";
 import Rectangle from "./Rectangle_5_copy.png";
+import ColoredLine from "../hr";
+
 
 const AboutApp = () => {
     return(
@@ -65,6 +67,8 @@ const AboutApp = () => {
                         </div>
                 </div>
             </div>
+            <ColoredLine className="hr" id="upAbout"/>
+            <ColoredLine className="hr" id="downAbout"/>
         </div>
     );
 }
