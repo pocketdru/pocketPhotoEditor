@@ -8,9 +8,10 @@ import ColoredLine from "../hr";
 const AboutApp = () => {
     return(
         <div className="container">
-            <div className="row">
+            <div className="row about-background">
                 <div className="col-md-12">
-            <div className="row d-flex justify-content-center about-app">
+                    <div className="about-app">
+            <div className="row">
                 <div className="col-md-12">
                         <h2 className="aboutApp-h2 mt-4">
                             About App
@@ -22,6 +23,7 @@ const AboutApp = () => {
                         </div>
                         <p className="about-desc text-center mt-2">SIMPLICITY IS THE ULTIMATE SOPHISTICATION</p>
 
+                </div>
                 </div>
                 <div className="col-md-12">
                     <div className="card-group">
