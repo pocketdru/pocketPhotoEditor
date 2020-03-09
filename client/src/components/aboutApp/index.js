@@ -7,8 +7,10 @@ import ColoredLine from "../hr";
 
 const AboutApp = () => {
     return(
-        <div className="container about-app">
-            <div className="row d-flex justify-content-center">
+        <div className="container">
+            <div className="row">
+                <div className="col-md-12">
+            <div className="row d-flex justify-content-center about-app">
                 <div className="col-md-12">
                         <h2 className="aboutApp-h2 mt-4">
                             About App
@@ -69,6 +71,8 @@ const AboutApp = () => {
             </div>
             <ColoredLine className="hr" id="upAbout"/>
             <ColoredLine className="hr" id="downAbout"/>
+            </div>
+            </div>
         </div>
     );
 }

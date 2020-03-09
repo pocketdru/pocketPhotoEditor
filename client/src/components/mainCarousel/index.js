@@ -10,7 +10,10 @@ import Carousel from "../Carousel";
 
 const mainCarousel = () => {
     return(
-        <div className="container main-carousel">
+        <div className="container">
+            <div className="row carousel-background">
+                <div className="col-md-12">
+                    <div className="main-carousel">
             <div className="row">
                 <div className="col-md-12">
                     <h1 className="appName">
@@ -58,7 +61,9 @@ const mainCarousel = () => {
             <ColoredLine className="hr" id="upAbout"/>
             <ColoredLine className="hr" id="downAbout"/>
         </div>
-
+        </div>
+        </div>
+        </div>
     );
 };
 
