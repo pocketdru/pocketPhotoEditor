@@ -83,7 +83,6 @@
     background-image: url("../navbar/Header_BG1.png");
 }
 .main-carousel {
-    width: 1110px!important;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.25)
 }
 
@@ -162,12 +161,14 @@
 
 .ribbon #hrDown {
     position: relative;
-    top: -36px;
+    top: -38px;
 }
 
 .carousel {
     border: 20px solid #fbfaf6;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 .welcome-slogan h2, .welcome-slogan p {
@@ -190,7 +191,7 @@
 .main-carousel {
     border-bottom: 2px;
     margin-top: -51px;
-    padding-top: 20px;
+    padding-top: 35px;
 }
 
 #upAbout {
