@@ -11,20 +11,20 @@ const AboutApp = () => {
             <div className="row about-background">
                 <div className="col-md-12">
                     <div className="about-app">
-            <div className="row">
-                <div className="col-md-12">
-                        <h2 className="aboutApp-h2 mt-4">
-                            About App
-                        </h2>
-                        <div className="d-flex justify-content-center">
-                            <img src={Rectangle} className="rectangle"></img>
-                            <img src={X} className="x"></img>
-                            <img src={Rectangle} className="rectangle"></img>
-                        </div>
+                        <div className="row">
+                            <div className="col-md-12">
+                                <h2 className="aboutApp-h2 mt-4">
+                                    About App
+                                </h2>
+                            <div className="d-flex justify-content-center">
+                                <img src={Rectangle} className="rectangle"></img>
+                                <img src={X} className="x"></img>
+                                <img src={Rectangle} className="rectangle"></img>
+                            </div>
                         <p className="about-desc text-center mt-2">SIMPLICITY IS THE ULTIMATE SOPHISTICATION</p>
 
-                </div>
-                </div>
+                            </div>
+                            </div>
                 <div className="col-md-12">
                     <div className="card-group">
                         <div className="card">

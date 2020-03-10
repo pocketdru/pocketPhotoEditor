@@ -6,10 +6,12 @@ import Tag from "./Tag.png";
 
 const Portfolio = () => {
     return(
-        <div className="container portfolio">
-            <div className="row">
+        <div className="container">
+            <div className="row portfolio-background">
                 <div className="col-md-12">
-
+                    <div className="portfolio">
+                        <div className="row">
+                            <div className="col-md-12">
                     {/* Portfolio header and description */}
                     <h2 className="portfolio-h2 mt-4">
                         Portfolio
@@ -20,7 +22,7 @@ const Portfolio = () => {
                         <img src={Rectangle} className="rectangle" alt="rectangle"></img>
                     </div>
                     <p className="about-desc text-center mt-2">The app gives you multiple opportunities to edit your photos</p>
-                </div>
+                    </div>
             </div>
             {/* Button group */}
             <div className="row mt-4">
@@ -163,6 +165,9 @@ const Portfolio = () => {
                     </a>
                 </div>
             </div>
+        </div>
+        </div>
+        </div>
         </div>
     )
 }
