@@ -1,6 +1,9 @@
-.blog {
+.blog-background {
     background-image: url("Blog_section_BG.png");
-    margin-top: -15px;
+}
+
+.blog {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
 }
 
 .blog .rectangle {

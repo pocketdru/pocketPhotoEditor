@@ -5,9 +5,12 @@ import Rectangle from "../aboutApp/Rectangle_5_copy.png";
 
 const Blog = () => {
     return(
-        <div className="container blog">
-            <div className="row">
+        <div className="container">
+            <div className="row blog-background">
                 <div className="col-md-12">
+                    <div className="blog">
+                        <div className="row">
+                            <div className="col-md-12">
                     <h2 className="portfolio-h2 mt-4">
                         My Blog
                     </h2>
@@ -18,7 +21,7 @@ const Blog = () => {
                     </div>
                     <p className="about-desc text-center mt-2">NEWS FROM MY HOUSE</p>
                 </div>
-            </div>
+                </div>
             <div className="row mt-4">
                 <div className="col-md-12">
                 <div className="card mb-3">
@@ -76,6 +79,9 @@ const Blog = () => {
                 </div>
             </div>
         </div>
+    </div>
+    </div>
+    </div>
     )
 }
 

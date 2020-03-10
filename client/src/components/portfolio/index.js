@@ -3,6 +3,7 @@ import "./style.css";
 import X from "../aboutApp/x.png";
 import Rectangle from "../aboutApp/Rectangle_5_copy.png";
 import Tag from "./Tag.png";
+import ColoredLine from "../hr";
 
 const Portfolio = () => {
     return(
@@ -166,6 +167,8 @@ const Portfolio = () => {
                 </div>
             </div>
         </div>
+        <ColoredLine className="hr" id="upAbout"/>
+            <ColoredLine className="hr" id="downAbout"/>
         </div>
         </div>
         </div>
