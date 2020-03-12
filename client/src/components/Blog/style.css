@@ -53,3 +53,14 @@
 .blog .card-body .line hr {
     margin-left: unset;
 }
+
+.blog-background #upAbout {
+    margin: -2px;
+    position: relative;
+    top: -8px;
+}
+
+.blog-background #downAbout {
+    position: relative;
+    top: 10px;
+}

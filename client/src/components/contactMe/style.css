@@ -1,6 +1,9 @@
-.contact {
+.contact-background {
     background-image: url("Contact_section_BG.png");
-    margin-top: -15px;
+}
+
+.contact {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
 }
 
 .contact .rectangle {

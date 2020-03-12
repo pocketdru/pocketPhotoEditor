@@ -71,8 +71,8 @@ const AboutApp = () => {
                         </div>
                 </div>
             </div>
-            <ColoredLine className="hr" id="upAbout"/>
-            <ColoredLine className="hr" id="downAbout"/>
+                <ColoredLine className="hr" id="upAbout"/>
+                <ColoredLine className="hr" id="downAbout"/>
             </div>
             </div>
         </div>
