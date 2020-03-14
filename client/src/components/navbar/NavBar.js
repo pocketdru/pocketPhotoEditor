@@ -4,10 +4,9 @@ import "./style.css";
 import ColoredLine from "../hr";
 
 const NavBar = () => {
-  const { isAuthenticated, loginWithRedirect, logout } = useAuth0();
-  console.log(window.innerHeight);
-  console.log(window.innerWidth);
-
+  // const { isAuthenticated, loginWithRedirect, logout } = useAuth0();
+  // console.log(window.innerHeight);
+  // console.log(window.innerWidth);
 
  return (
 <div className="container">
@@ -18,9 +17,15 @@ const NavBar = () => {
           <a className="navLink col-md-5 feed" href="#">Feed</a>
           <div className="col-md-2" id="burst-8"></div>
           <a className="navLink col-md-4 myPhotos" href="#">My Photos</a>
-          {!isAuthenticated && (
+          {/* {!isAuthenticated && (
           <a onClick={() => loginWithRedirect({})} className="navLink col-md-1" id="login">Log in</a> )}
-          {isAuthenticated && <a onClick={() => logout()} className="navLink col-md-1" id="login">Log out</a>}
+          {isAuthenticated && 
+          <a onClick={() => logout()} 
+          className="navLink col-md-1" 
+          id="login">
+            Log out
+            </a>
+            } */}
         </div>
       </nav>
       <ColoredLine className="hr" />

@@ -7,6 +7,10 @@ import ContactMe from "../components/contactMe";
 
 class Home extends Component {
 
+    componentDidMount() {
+        console.log("fd");
+      };
+
     render() {
         return(
             <div>

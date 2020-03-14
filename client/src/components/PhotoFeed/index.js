@@ -1,7 +1,5 @@
 import React from "react";
 import "./style.css";
-import X from "../aboutApp/x.png";
-import Rectangle from "../aboutApp/Rectangle_5_copy.png";
 import ColoredLine from "../hr";
 import r1 from "../mainCarousel/Rectangle_1.png";
 import r4 from "../mainCarousel/Rectangle_4.png";
@@ -22,29 +20,29 @@ const PhotoFeed = () => {
                             </div>
                         </div>
                         <div className="row">
-                <div className="col-md-2 d-flex align-content-center flex-wrap justify-content-end">
-                    <span className="dot"></span>
-                    <span className="dot"></span>
-                    <span className="dot"></span>
-                    <span className="dot "></span>
-                </div>
-                <div className="col-md-8 ribbon">
-                    <div>
-                        <h2 className="ribbon-text">Your recent photos</h2>
-                    </div>
-                    <img src={r4} className="img-fluid sideRec" alt="Responsive image"/>
-                    <img src={r1} className="img-fluid mainRec" alt="Responsive image"/>
-                    <img src={r4r} className="img-fluid rightRec" alt="Responsive image"/>
-                    <ColoredLine className="hr" id="hrUp"/>
-                    <ColoredLine className="hr" id="hrDown"/>
-                </div>
-                <div className="col-md-2 d-flex align-content-center flex-wrap">
-                    <span className="dot"></span>
-                    <span className="dot"></span>
-                    <span className="dot"></span>
-                    <span className="dot"></span>
-                </div>
-            </div>
+                            <div className="col-md-2 d-flex align-content-center flex-wrap justify-content-end">
+                                <span className="dot"></span>
+                                <span className="dot"></span>
+                                <span className="dot"></span>
+                                <span className="dot "></span>
+                            </div>
+                            <div className="col-md-8 ribbon">
+                                <div>
+                                    <h2 className="ribbon-text">Your recent photos</h2>
+                                </div>
+                                <img src={r4} className="img-fluid sideRec" alt="Responsive image"/>
+                                <img src={r1} className="img-fluid mainRec" alt="Responsive image"/>
+                                <img src={r4r} className="img-fluid rightRec" alt="Responsive image"/>
+                                <ColoredLine className="hr" id="hrUp"/>
+                                <ColoredLine className="hr" id="hrDown"/>
+                            </div>
+                            <div className="col-md-2 d-flex align-content-center flex-wrap">
+                                <span className="dot"></span>
+                                <span className="dot"></span>
+                                <span className="dot"></span>
+                                <span className="dot"></span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

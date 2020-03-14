@@ -8,26 +8,41 @@ import history from "./utils/history";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-// A function that routes the user to the right place
-// after login
-const onRedirectCallback = appState => {
-  history.push(
-    appState && appState.targetUrl
-      ? appState.targetUrl
-      : window.location.pathname
-  );
+let state = {};
+
+window.setState = (changes) => {
+    state = Object.assign({}, state, changes);
+    ReactDOM.render(<App {...state}/>, document.getElementById('root'));
 };
 
-ReactDOM.render(
-  <Auth0Provider
-    domain={config.domain}
-    client_id={config.clientId}
-    redirect_uri={window.location.origin}
-    onRedirectCallback={onRedirectCallback}
-  >
-    <App />
-  </Auth0Provider>,
-  document.getElementById("root")
-);
+let initialState = {
+ name: "Joel",
+ location: window.location.pathname.replace(/^\/?|\/$/g, ""),
+
+};
+
+window.setState(initialState);
+
+// A function that routes the user to the right place
+// after login
+// const onRedirectCallback = appState => {
+//   history.push(
+//     appState && appState.targetUrl
+//       ? appState.targetUrl
+//       : window.location.pathname
+//   );
+// };
+
+// ReactDOM.render(
+//   <Auth0Provider
+//     domain={config.domain}
+//     client_id={config.clientId}
+//     redirect_uri={window.location.origin}
+//     onRedirectCallback={onRedirectCallback}
+//   >
+//     <App />
+//   </Auth0Provider>,
+//   document.getElementById("root")
+// );
 
 serviceWorker.unregister();
