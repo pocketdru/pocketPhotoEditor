@@ -4,6 +4,7 @@ import NavBar from "./components/navbar/NavBar.js";
 import { useAuth0 } from "./react-auth0-spa.js";
 import Home from "./pages/Home";
 import MyFeed from "./pages/MyFeed";
+import NotFound from "./pages/NotFound";
 
 class App extends Component {
   // const { loading } = useAuth0();
@@ -21,7 +22,7 @@ render() {
       mainComponent = <MyFeed />;
       break;
     default:
-      mainComponent = <Home />;
+      mainComponent = <NotFound />;
 
   }
 
