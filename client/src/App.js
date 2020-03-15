@@ -5,6 +5,7 @@ import { useAuth0 } from "./react-auth0-spa.js";
 import Home from "./pages/Home";
 import MyFeed from "./pages/MyFeed";
 import NotFound from "./pages/NotFound";
+import Callback from "./components/Callback";
 
 class App extends Component {
   // const { loading } = useAuth0();
@@ -18,6 +19,9 @@ render() {
     case "":
       mainComponent = <Home />;
       break;
+    case "callback":
+      mainComponent = <Callback />; 
+      break; 
     case "myfeed":
       mainComponent = <MyFeed />;
       break;
