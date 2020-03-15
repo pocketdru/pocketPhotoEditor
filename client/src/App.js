@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import NavBar from "./components/navbar/NavBar.js";
+import NavBar from "./components/navbar";
 import { useAuth0 } from "./react-auth0-spa.js";
 import Home from "./pages/Home";
 import MyFeed from "./pages/MyFeed";
@@ -17,7 +17,7 @@ render() {
   let mainComponent = "";
   switch(this.props.location) {
     case "":
-      mainComponent = <Home />;
+      mainComponent = <Home {...this.props} />;
       break;
     case "callback":
       mainComponent = <Callback />; 
@@ -33,7 +33,7 @@ render() {
   return (
     <div className="App">
       <header>
-        <NavBar />
+        <NavBar {...this.props}/>
       </header>
       {mainComponent}
 
