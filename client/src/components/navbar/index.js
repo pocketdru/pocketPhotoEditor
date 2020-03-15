@@ -13,7 +13,7 @@ class NavBar extends Component {
         <div className="col-md-12 nav-hr">
           <nav className="navbar navbar-expand-lg">
             <div className="collapse navbar-collapse d-flex justify-content-around row" id="navbarSupportedContent">
-              <a className="navLink col-md-5 feed" href="#">Feed</a>
+              <a className="navLink col-md-5 feed" href="myfeed">Feed</a>
               <div className="col-md-2" id="burst-8"></div>
               <a className="navLink col-md-4 myPhotos" href="#">My Photos</a>
               {/* {!isAuthenticated && (
@@ -25,6 +25,8 @@ class NavBar extends Component {
                 Log out
                 </a>
                 } */}
+                <a className="navLink col-md-1" id="login">Log in</a>
+
             </div>
           </nav>
           <ColoredLine className="hr" />
