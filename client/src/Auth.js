@@ -4,7 +4,7 @@ export default class Auth {
     auth0 = new auth0.WebAuth({
         domain: "dev-qm0-ivzk.auth0.com",
         clientID: "QNCYbMnNO5ezHlm7WMc694bM6MOenTgO",
-        redirectUri: "http://localhost:3000" && "https://pocket-photo-editor-ma.herokuapp.com/",
+        redirectUri: window.location + "callback",
         audience: "http://dev-qm0-ivzk.auth0.com/userinfo",
         responseType: "token id_token",
         scope: "openid" 
@@ -15,6 +15,7 @@ export default class Auth {
     }
 
     login() {
+        console.log('login method in auth.js')
         this.auth0.authorize();
     }
 }

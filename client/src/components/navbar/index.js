@@ -16,16 +16,8 @@ class NavBar extends Component {
               <a className="navLink col-md-5 feed" href="myfeed">Feed</a>
               <div className="col-md-2" id="burst-8"></div>
               <a className="navLink col-md-4 myPhotos" href="#">My Photos</a>
-              {/* {!isAuthenticated && (
-              <a onClick={() => loginWithRedirect({})} className="navLink col-md-1" id="login">Log in</a> )}
-              {isAuthenticated && 
-              <a onClick={() => logout()} 
-              className="navLink col-md-1" 
-              id="login">
-                Log out
-                </a>
-                } */}
-                <a className="navLink col-md-1" id="login">Log in</a>
+
+                <a onClick={this.props.auth.login} className="navLink col-md-1" id="login">Log in</a>
 
             </div>
           </nav>
