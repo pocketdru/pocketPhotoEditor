@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import NavBar from "../components/navbar";
 import MainCarousel from "../components/mainCarousel";
 import AboutApp from "../components/aboutApp";
 import Portfolio from "../components/portfolio";
@@ -14,6 +15,9 @@ class Home extends Component {
     render() {
         return(
             <div>
+                <header>
+                    <NavBar {...this.props}/>
+                </header>
                 <MainCarousel/>
                 <AboutApp/>
                 <Portfolio/>

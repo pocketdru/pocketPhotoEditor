@@ -1,6 +1,5 @@
 import React, {Component} from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import NavBar from "./components/navbar";
 import { useAuth0 } from "./react-auth0-spa.js";
 import Home from "./pages/Home";
 import MyFeed from "./pages/MyFeed";
@@ -32,11 +31,7 @@ render() {
 
   return (
     <div className="App">
-      <header>
-        <NavBar {...this.props}/>
-      </header>
       {mainComponent}
-
     </div>
 
   );
