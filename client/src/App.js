@@ -7,11 +7,7 @@ import NotFound from "./pages/NotFound";
 import Callback from "./components/Callback";
 
 class App extends Component {
-  // const { loading } = useAuth0();
 
-  // if (loading) {
-  //   return <div>Loading...</div>;
-  // }
 render() {
   let mainComponent = "";
   switch(this.props.location) {
@@ -22,7 +18,7 @@ render() {
       mainComponent = <Callback {...this.props}/>; 
       break; 
     case "myfeed":
-      mainComponent = <MyFeed />;
+      mainComponent = this.props.auth.isAuthenticated() ? <MyFeed {...this.props} /> : <NotFound />;
       break;
     default:
       mainComponent = <NotFound />;

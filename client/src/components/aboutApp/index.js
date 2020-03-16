@@ -17,9 +17,9 @@ const AboutApp = () => {
                                     About App
                                 </h2>
                             <div className="d-flex justify-content-center">
-                                <img src={Rectangle} className="rectangle"></img>
-                                <img src={X} className="x"></img>
-                                <img src={Rectangle} className="rectangle"></img>
+                                <img src={Rectangle} className="rectangle" alt="rectangle"></img>
+                                <img src={X} className="x" alt="x"></img>
+                                <img src={Rectangle} className="rectangle" alt="rectnagle"></img>
                             </div>
                         <p className="about-desc text-center mt-2">SIMPLICITY IS THE ULTIMATE SOPHISTICATION</p>
 

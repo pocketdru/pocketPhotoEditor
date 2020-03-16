@@ -16,9 +16,11 @@ class NavBar extends Component {
               <a className="navLink col-md-5 feed" href="myfeed">Feed</a>
               <div className="col-md-2" id="burst-8"></div>
               <a className="navLink col-md-4 myPhotos" href="#">My Photos</a>
-
-                <a onClick={this.props.auth.login} className="navLink col-md-1" id="login">Log in</a>
-
+                {!this.props.auth.isAuthenticated () &&
+                <a onClick={this.props.auth.login} className="navLink col-md-1" id="login">Log in</a> }
+                                {this.props.auth.isAuthenticated () &&
+                <a onClick={this.props.auth.login} className="navLink col-md-1" id="login">Logout</a> }
+              
             </div>
           </nav>
           <ColoredLine className="hr" />
