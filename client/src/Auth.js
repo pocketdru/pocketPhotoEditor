@@ -5,7 +5,7 @@ export default class Auth {
         domain: "dev-qm0-ivzk.auth0.com",
         clientID: "QNCYbMnNO5ezHlm7WMc694bM6MOenTgO",
         redirectUri: window.location + "callback",
-        audience: "http://dev-qm0-ivzk.auth0.com/userinfo",
+        audience: "https://dev-qm0-ivzk.auth0.com/userinfo",
         responseType: "token id_token",
         scope: "openid" 
     });

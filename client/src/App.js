@@ -19,7 +19,7 @@ render() {
       mainComponent = <Home {...this.props} />;
       break;
     case "callback":
-      mainComponent = <Callback />; 
+      mainComponent = <Callback {...this.props}/>; 
       break; 
     case "myfeed":
       mainComponent = <MyFeed />;

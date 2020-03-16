@@ -17,6 +17,8 @@ class Home extends Component {
             <div>
                 <header>
                     <NavBar {...this.props}/>
+                    <a onClick={this.props.auth.login} className="navLink col-md-1" id="login">Log in</a>
+
                 </header>
                 <MainCarousel/>
                 <AboutApp/>
