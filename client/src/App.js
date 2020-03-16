@@ -1,6 +1,4 @@
 import React, {Component} from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { useAuth0 } from "./react-auth0-spa.js";
 import Home from "./pages/Home";
 import MyFeed from "./pages/MyFeed";
 import NotFound from "./pages/NotFound";
@@ -18,10 +16,10 @@ render() {
       mainComponent = <Callback {...this.props}/>; 
       break; 
     case "myfeed":
-      mainComponent = this.props.auth.isAuthenticated() ? <MyFeed {...this.props} /> : <NotFound />;
+      mainComponent = this.props.auth.isAuthenticated() ? <MyFeed {...this.props} /> : < NotFound {...this.props} />;
       break;
     default:
-      mainComponent = <NotFound />;
+      mainComponent = <NotFound {...this.props} />;
 
   }
 

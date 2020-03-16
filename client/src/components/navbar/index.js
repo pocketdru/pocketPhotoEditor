@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { useAuth0 } from "../../react-auth0-spa";
 import "./style.css";
 import ColoredLine from "../hr";
 
@@ -15,11 +14,11 @@ class NavBar extends Component {
             <div className="collapse navbar-collapse d-flex justify-content-around row" id="navbarSupportedContent">
               <a className="navLink col-md-5 feed" href="myfeed">Feed</a>
               <div className="col-md-2" id="burst-8"></div>
-              <a className="navLink col-md-4 myPhotos" href="#">My Photos</a>
+              <a className="navLink col-md-4 myPhotos" href="myphotos">My Photos</a>
                 {!this.props.auth.isAuthenticated () &&
                 <a onClick={this.props.auth.login} className="navLink col-md-1" id="login">Log in</a> }
                                 {this.props.auth.isAuthenticated () &&
-                <a onClick={this.props.auth.login} className="navLink col-md-1" id="login">Logout</a> }
+                <a onClick={this.props.auth.logout} className="navLink col-md-1" id="login">Logout</a> }
               
             </div>
           </nav>

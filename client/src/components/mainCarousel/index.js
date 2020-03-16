@@ -1,5 +1,4 @@
 import React from "react";
-import { useAuth0 } from "../../react-auth0-spa";
 import ColoredLine from "../hr";
 import "./style.css";
 import r1 from "./Rectangle_1.png";
@@ -32,9 +31,9 @@ const mainCarousel = () => {
                     <div>
                         <h2 className="ribbon-text">RETRO STYLE FILTERS</h2>
                     </div>
-                    <img src={r4} className="img-fluid sideRec" alt="Responsive image"/>
-                    <img src={r1} className="img-fluid mainRec" alt="Responsive image"/>
-                    <img src={r4r} className="img-fluid rightRec" alt="Responsive image"/>
+                    <img src={r4} className="img-fluid sideRec" alt="image"/>
+                    <img src={r1} className="img-fluid mainRec" alt="image"/>
+                    <img src={r4r} className="img-fluid rightRec" alt="image"/>
                     <ColoredLine className="hr" id="hrUp"/>
                     <ColoredLine className="hr" id="hrDown"/>
                 </div>

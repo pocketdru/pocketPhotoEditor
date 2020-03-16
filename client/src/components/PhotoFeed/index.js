@@ -30,9 +30,9 @@ const PhotoFeed = () => {
                                 <div>
                                     <h2 className="ribbon-text">Your recent photos</h2>
                                 </div>
-                                <img src={r4} className="img-fluid sideRec" alt="Responsive image"/>
-                                <img src={r1} className="img-fluid mainRec" alt="Responsive image"/>
-                                <img src={r4r} className="img-fluid rightRec" alt="Responsive image"/>
+                                <img src={r4} className="img-fluid sideRec" alt="Responsive"/>
+                                <img src={r1} className="img-fluid mainRec" alt="Responsive"/>
+                                <img src={r4r} className="img-fluid rightRec" alt="Responsive"/>
                                 <ColoredLine className="hr" id="hrUp"/>
                                 <ColoredLine className="hr" id="hrDown"/>
                             </div>
