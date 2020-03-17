@@ -9,7 +9,7 @@ class MyFeed extends Component {
                 <header>
                     <NavBar {...this.props}/>
                 </header>
-                <PhotoFeed/>
+                <PhotoFeed {...this.props}/>
             </div>
         )
     }

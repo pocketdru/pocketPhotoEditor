@@ -3,8 +3,6 @@ import ReactDOM from "react-dom";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import Auth from "./Auth";
-import config from "./auth_config.json";
-import history from "./utils/history";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const auth = new Auth();
@@ -15,14 +13,14 @@ window.setState = (changes) => {
     ReactDOM.render(<App {...state}/>, document.getElementById('root'));
 };
 
+let userName = auth.getProfile().given_name || "Johnny";
+
 let initialState = {
- name: "Joel",
+  name: userName,
  location: window.location.pathname.replace(/^\/?|\/$/g, ""),
   auth
 };
 
 window.setState(initialState);
-
-
 
 serviceWorker.unregister();

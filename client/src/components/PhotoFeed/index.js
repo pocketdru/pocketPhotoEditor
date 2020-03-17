@@ -1,11 +1,12 @@
-import React from "react";
+import React, { Component } from "react";
 import "./style.css";
 import ColoredLine from "../hr";
 import r1 from "../mainCarousel/Rectangle_1.png";
 import r4 from "../mainCarousel/Rectangle_4.png";
 import r4r from "../mainCarousel/Rectangle_4_copy.png";
 
-const PhotoFeed = () => {
+class PhotoFeed extends Component {
+    render() {
     return(
         <div className="container">
             <div className="row photofeed-background">
@@ -15,7 +16,7 @@ const PhotoFeed = () => {
                             <div className="col-md-12">
                                 {/* Portfolio header and description */}
                                 <h2 className="appName mt-4">
-                                    My Feed
+                                   Welcome to My Feed, {this.props.name}
                                 </h2>
                             </div>
                         </div>
@@ -48,5 +49,6 @@ const PhotoFeed = () => {
             </div>
         </div>
     )
+    }
 }
 export default PhotoFeed;

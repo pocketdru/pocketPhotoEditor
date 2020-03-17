@@ -1,6 +1,6 @@
 /* eslint no-restricted-globals: 0 */
-
 import auth0 from "auth0-js";
+import jwtDecode from "jwt-decode";
 
 const LOGIN_SUCCESS_PAGE = "/myfeed";
 const LOGIN_FAILURE_PAGE = "/";
@@ -12,7 +12,7 @@ export default class Auth {
         redirectUri: window.location + "callback",
         audience: "https://dev-qm0-ivzk.auth0.com/userinfo",
         responseType: "token id_token",
-        scope: "openid" 
+        scope: "openid profile" 
     });
 
     constructor() {
@@ -27,6 +27,7 @@ export default class Auth {
     handleAuthentication() {
         console.log('parse hash')
         this.auth0.parseHash((err, authResults) => {
+            console.log(authResults);
             if (authResults && authResults.accessToken && authResults.idToken) {
                 let expiresAt = JSON.stringify((authResults.expiresIn) * 1000 + new Date().getTime());
                 localStorage.setItem("access_token", authResults.accessToken);
@@ -52,5 +53,13 @@ export default class Auth {
         localStorage.removeItem("id_token");
         localStorage.removeItem("expires_at");
         window.location.pathname = LOGIN_FAILURE_PAGE;
+    }
+
+    getProfile() {
+        if(localStorage.getItem("id_token")) {
+            return jwtDecode(localStorage.getItem("id_token"));
+        } else {
+            return {};
+        }
     }
 }
