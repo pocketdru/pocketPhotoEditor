@@ -32,7 +32,7 @@ const Portfolio = () => {
                                     <h6 className="card-text">Filter by</h6>
                                     <button type="button" className="btn btn-secondary" id="btn">
                                     <div className="card">
-                                        <img src={Tag} className="card-img" alt="card-image"/>
+                                        <img src={Tag} className="card-img" alt="card"/>
                                         <div className="card-img-overlay">
                                             <p className="card-text">design</p>
                                         </div>
@@ -41,7 +41,7 @@ const Portfolio = () => {
                                     <button type="button" className="btn btn-secondary"
                                     id="btn">
                                     <div className="card">
-                                        <img src={Tag} className="card-img" alt="card-image"/>
+                                        <img src={Tag} className="card-img" alt="card"/>
                                         <div className="card-img-overlay">
                                             <p className="card-text">design</p>
                                         </div>
@@ -50,7 +50,7 @@ const Portfolio = () => {
                                     <button type="button" className="btn btn-secondary"
                                     id="btn">
                                     <div className="card">
-                                        <img src={Tag} className="card-img" alt="card-image"/>
+                                        <img src={Tag} className="card-img" alt="card"/>
                                         <div className="card-img-overlay">
                                             <p className="card-text">design</p>
                                         </div>
@@ -59,7 +59,7 @@ const Portfolio = () => {
                                     <button type="button" className="btn btn-secondary"
                                     id="btn">
                                     <div className="card">
-                                        <img src={Tag} className="card-img" alt="card-image"/>
+                                        <img src={Tag} className="card-img" alt="card"/>
                                         <div className="card-img-overlay">
                                             <p className="card-text">design</p>
                                         </div>
@@ -68,7 +68,7 @@ const Portfolio = () => {
                                     <button type="button" className="btn btn-secondary"
                                     id="btn">
                                     <div className="card">
-                                        <img src={Tag} className="card-img" alt="card-image"/>
+                                        <img src={Tag} className="card-img" alt="card"/>
                                         <div className="card-img-overlay">
                                             <p className="card-text">design</p>
                                         </div>
@@ -77,7 +77,7 @@ const Portfolio = () => {
                                     <button type="button" className="btn btn-secondary"
                                     id="btn">
                                     <div className="card">
-                                        <img src={Tag} className="card-img" alt="card-image"/>
+                                        <img src={Tag} className="card-img" alt="card"/>
                                         <div className="card-img-overlay">
                                             <p className="card-text">design</p>
                                         </div>
@@ -86,7 +86,7 @@ const Portfolio = () => {
                                     <button type="button" className="btn btn-secondary"
                                     id="btn">
                                     <div className="card">
-                                        <img src={Tag} className="card-img" alt="card-image"/>
+                                        <img src={Tag} className="card-img" alt="card"/>
                                         <div className="card-img-overlay">
                                             <p className="card-text">design</p>
                                         </div>
@@ -95,7 +95,7 @@ const Portfolio = () => {
                                     <button type="button" className="btn btn-secondary"
                                     id="btn">
                                     <div className="card">
-                                        <img src={Tag} className="card-img" alt="card-image"/>
+                                        <img src={Tag} className="card-img" alt="card"/>
                                         <div className="card-img-overlay">
                                             <p className="card-text">design</p>
                                         </div>
@@ -107,53 +107,53 @@ const Portfolio = () => {
                             <div className="col-md-12 portfolio-cards">
                             <div className="card-group">
                                 <div className="card">
-                                    <img src="images/portfolio/airport.png" className="card-img-top" alt="card-image"/>
+                                    <img src="images/portfolio/airport.png" className="card-img-top" alt="card"/>
                                     <div className="card-body">
-                                        <img src="images/portfolio/icons/photo.png" className="card-title"></img>
+                                        <img src="images/portfolio/icons/photo.png" className="card-title" alt="card"></img>
                                     </div>
                                 </div>
                                 <div className="card">
-                                    <img src="images/portfolio/abstract.png" className="card-img-top" alt="card-image"/>
+                                    <img src="images/portfolio/abstract.png" className="card-img-top" alt="card"/>
                                     <div className="card-body">
-                                        <img src="images/portfolio/icons/clip.png" className="card-title"></img>
+                                        <img src="images/portfolio/icons/clip.png" className="card-title" alt="card"></img>
                                     </div>
                                 </div>
                                 <div className="card">
-                                    <img src="images/portfolio/fireworks.png" className="card-img-top" alt="card-image"/>
+                                    <img src="images/portfolio/fireworks.png" className="card-img-top" alt="card"/>
                                     <div className="card-body">
-                                        <img src="images/portfolio/icons/note.png" className="card-title"></img>
+                                        <img src="images/portfolio/icons/note.png" className="card-title" alt="card"></img>
                                     </div>
                                 </div>
                                 <div className="card">
-                                    <img src="images/portfolio/canon.png" className="card-img-top" alt="card-image"/>
+                                    <img src="images/portfolio/canon.png" className="card-img-top" alt="card"/>
                                     <div className="card-body">
-                                        <img src="images/portfolio/icons/tv.png" className="card-title"></img>                        
+                                        <img src="images/portfolio/icons/tv.png" className="card-title" alt="card"></img>                        
                                     </div>
                                 </div>
                                 </div>
                                 <div className="card-group mt-4">
                                 <div className="card">
-                                    <img src="images/portfolio/abstract.png" className="card-img-top" alt="card-image"/>
+                                    <img src="images/portfolio/abstract.png" className="card-img-top" alt="card"/>
                                     <div className="card-body">
-                                        <img src="images/portfolio/icons/tv.png" className="card-title"></img>                        
+                                        <img src="images/portfolio/icons/tv.png" className="card-title" alt="card"></img>                        
                                     </div>
                                 </div>
                                 <div className="card">
-                                    <img src="images/portfolio/airport.png" className="card-img-top" alt="card-image"/>
+                                    <img src="images/portfolio/airport.png" className="card-img-top" alt="card"/>
                                     <div className="card-body">
-                                        <img src="images/portfolio/icons/sound.png" className="card-title"></img>                        
+                                        <img src="images/portfolio/icons/sound.png" className="card-title" alt="card"></img>                        
                                     </div>
                                 </div>
                                 <div className="card">
-                                    <img src="images/portfolio/canon.png" className="card-img-top" alt="card-image"/>
+                                    <img src="images/portfolio/canon.png" className="card-img-top" alt="card"/>
                                     <div className="card-body">
-                                        <img src="images/portfolio/icons/clip.png" className="card-title"></img>                        
+                                        <img src="images/portfolio/icons/clip.png" className="card-title" alt="card"></img>                        
                                     </div>
                                 </div>
                                 <div className="card">
-                                    <img src="images/portfolio/fireworks.png" className="card-img-top" alt="card-image"/>
+                                    <img src="images/portfolio/fireworks.png" className="card-img-top" alt="card"/>
                                     <div className="card-body">
-                                        <img src="images/portfolio/icons/note.png" className="card-title"></img>                        
+                                        <img src="images/portfolio/icons/note.png" className="card-title" alt="card"></img>                        
                                     </div>
                                 </div>
                                 </div>
@@ -162,7 +162,7 @@ const Portfolio = () => {
                         <div className="row justify-content-center mt-2 pb-4">
                             <div className="col-md-4 browse-all">
                                 <span className="line"><hr></hr></span>
-                                    <a className="browse-all">BROWSE ALL
+                                    <a href="/browse" className="browse-all">BROWSE ALL
                                 </a>
                             </div>
                         </div>

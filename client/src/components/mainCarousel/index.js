@@ -31,9 +31,9 @@ const mainCarousel = () => {
                     <div>
                         <h2 className="ribbon-text">RETRO STYLE FILTERS</h2>
                     </div>
-                    <img src={r4} className="img-fluid sideRec" alt="image"/>
-                    <img src={r1} className="img-fluid mainRec" alt="image"/>
-                    <img src={r4r} className="img-fluid rightRec" alt="image"/>
+                    <img src={r4} className="img-fluid sideRec" alt="sideRec"/>
+                    <img src={r1} className="img-fluid mainRec" alt="mainRec"/>
+                    <img src={r4r} className="img-fluid rightRec" alt="sideRec"/>
                     <ColoredLine className="hr" id="hrUp"/>
                     <ColoredLine className="hr" id="hrDown"/>
                 </div>
