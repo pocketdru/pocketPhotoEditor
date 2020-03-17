@@ -9,7 +9,7 @@ class App extends Component {
 render() {
   {console.log(this.props.location)}
 
-  let mainComponent = "";
+  let mainComponent = "myfeed";
   switch(this.props.location) {
     case "":
       mainComponent = <Home {...this.props} />;
