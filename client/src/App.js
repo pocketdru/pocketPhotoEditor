@@ -9,10 +9,10 @@ class App extends Component {
 render() {
   {console.log(this.props.location)}
 
-  let mainComponent = "myfeed";
+  let mainComponent = "";
   switch(this.props.location) {
     case "":
-      mainComponent = <Home {...this.props} />;
+      mainComponent = <MyFeed {...this.props} />;
       break;
     case "callback":
       mainComponent = <Callback {...this.props}/>; 
