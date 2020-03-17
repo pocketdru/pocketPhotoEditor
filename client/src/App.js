@@ -17,6 +17,9 @@ render() {
     case "callback":
       mainComponent = <Callback {...this.props}/>; 
       break; 
+    case "https://pocket-photo-editor-ma.herokuapp.com/myfeed":
+      mainComponent = this.props.auth.isAuthenticated() ? <MyFeed {...this.props} /> : < NotFound {...this.props} />;
+      break;
     case "myfeed":
       mainComponent = this.props.auth.isAuthenticated() ? <MyFeed {...this.props} /> : < NotFound {...this.props} />;
       break;

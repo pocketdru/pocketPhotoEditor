@@ -17,7 +17,7 @@ let userName = auth.getProfile().given_name || "Johnny";
 
 let initialState = {
   name: userName,
- location: window.location.pathname.replace(/^\/?|\/$/g, ""),
+  location: window.location.pathname.replace(/^\/?|\/$/g, ""),
   auth
 };
 
