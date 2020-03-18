@@ -15,7 +15,7 @@ class PhotoFeed extends Component {
                         <div className="row">
                             <div className="col-md-12">
                                 {/* Portfolio header and description */}
-                                <h2 className="appName mt-4">
+                                <h2 className="appName mt-4 mb-5">
                                    Welcome to My Feed, {this.props.name}
                                 </h2>
                             </div>
