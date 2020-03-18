@@ -88,6 +88,8 @@ font-family: 'Bungee Inline', cursive */
     text-transform: uppercase;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
     color: #f9ebd9;
+    background-color: inherit;
+    border: none;
 }
 
 #burst-8 {

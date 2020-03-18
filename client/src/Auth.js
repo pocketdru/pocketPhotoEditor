@@ -2,8 +2,8 @@
 import auth0 from "auth0-js";
 import jwtDecode from "jwt-decode";
 
-const LOGIN_SUCCESS_PAGE = "/myfeed";
-const LOGIN_FAILURE_PAGE = "/".replace("#", "");
+const LOGIN_SUCCESS_PAGE = "myfeed";
+const LOGIN_FAILURE_PAGE = "";
 
 export default class Auth {
     auth0 = new auth0.WebAuth({
