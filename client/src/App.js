@@ -1,24 +1,22 @@
 import React, {Component} from "react";
 import Home from "./pages/Home";
-import MyFeed from "./pages/MyFeed";
-import NotFound from "./pages/NotFound";
-import Callback from "./components/Callback";
+import MyFeed from "./pages/MyFeed.js";
+import NotFound from "./pages/NotFound.js";
+import Callback from "./components/Callback/index";
 
 class App extends Component {
 
 render() {
-  {console.log(this.props.location)}
-
   let mainComponent = "";
   switch(this.props.location) {
     case "":
-      mainComponent = <Home {...this.props} />;
+      mainComponent = <Home {...this.props}/>;
       break;
     case "callback":
       mainComponent = <Callback/>; 
       break; 
     case "myfeed":
-      mainComponent = this.props.auth.isAuthenticated() ? <MyFeed {...this.props} /> : < NotFound {...this.props} />;
+      mainComponent = this.props.auth.isAuthenticated() ? <MyFeed {...this.props} /> : <NotFound {...this.props} />;
       break;
     default:
       mainComponent = <NotFound {...this.props} />;
@@ -32,6 +30,6 @@ render() {
 
   );
   }
-}
+};
 
 export default App;
