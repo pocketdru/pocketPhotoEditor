@@ -2,14 +2,14 @@
 import auth0 from "auth0-js";
 import jwtDecode from "jwt-decode";
 
-const LOGIN_SUCCESS_PAGE = "myfeed";
-const LOGIN_FAILURE_PAGE = "";
+const LOGIN_SUCCESS_PAGE = "/myfeed";
+const LOGIN_FAILURE_PAGE = "/";
 
 export default class Auth {
     auth0 = new auth0.WebAuth({
         domain: "dev-qm0-ivzk.auth0.com",
         clientID: "QNCYbMnNO5ezHlm7WMc694bM6MOenTgO",
-        redirectUri: window.location.origin + "/callback",
+        redirectUri: "https://pocket-photo-editor-ma.herokuapp.com" + "/callback",
         audience: "https://dev-qm0-ivzk.auth0.com/userinfo",
         responseType: "token id_token",
         scope: "openid email profile" 
@@ -34,7 +34,7 @@ export default class Auth {
                 localStorage.setItem("id_token", authResults.idToken);
                 localStorage.setItem("expires_at", expiresAt);
                 window.location.hash = "";
-                window.location.pathname = "";
+                window.location.pathname = "https://pocket-photo-editor-ma.herokuapp.com/myfeed";
 
             } else if (err) {
                 window.location.pathname = LOGIN_FAILURE_PAGE;
