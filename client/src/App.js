@@ -27,7 +27,7 @@ function App () {
   return (
     <Router>
       <Switch>
-        <Route exact path="/" component={Home} />
+        <Route exact path="/" component={MyFeed} />
         <Route exact path="/myfeeed" component={MyFeed} />
         <React exact path="/callback" component={Callback} />
         {/* <Route exact path="/saved" component={Jumbotron} /> */}
