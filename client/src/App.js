@@ -9,9 +9,9 @@ class App extends Component {
 render() {
   {console.log(this.props.location)}
 
-  let mainComponent = "/";
+  let mainComponent = "";
   switch(this.props.location) {
-    case "/":
+    case "https://pocket-photo-editor-ma.herokuapp.com":
       mainComponent = <Home {...this.props} />;
       break;
     case "/callback":
