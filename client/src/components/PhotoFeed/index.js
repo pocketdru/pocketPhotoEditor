@@ -1,11 +1,24 @@
 import React, { Component } from "react";
 import "./style.css";
+import API from "../utils/API";
 import ColoredLine from "../hr";
 import r1 from "../mainCarousel/Rectangle_1.png";
 import r4 from "../mainCarousel/Rectangle_4.png";
 import r4r from "../mainCarousel/Rectangle_4_copy.png";
 
 class PhotoFeed extends Component {
+    
+    handleUploadButton = event => {
+        event.preventDefault();
+        var photoData = event.target.getAttribute("value");
+        console.log(photoData);
+        API.savePhoto(photoData)
+        .then(res => {
+            console.log("Photo saved!");
+        })
+        .catch(err => console.log(err))
+    };
+
     render() {
     return(
         <div className="container">
@@ -46,7 +59,9 @@ class PhotoFeed extends Component {
                         </div>
                         <div className="row">
                             <div className="col-md-8 col-sm-6">
-                    
+                                <div className="photo-input">
+                                    <button onClick={this.handleUploadButton} value="upload">Upload</button>
+                                </div>
                             </div>
                         </div>
                     </div>
