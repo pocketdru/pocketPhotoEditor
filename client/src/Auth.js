@@ -34,7 +34,7 @@ export default class Auth {
                 localStorage.setItem("id_token", authResults.idToken);
                 localStorage.setItem("expires_at", expiresAt);
                 window.location.hash = "";
-                window.location.pathname = LOGIN_SUCCESS_PAGE;
+                window.location.pathname = "";
 
             } else if (err) {
                 window.location.pathname = LOGIN_FAILURE_PAGE;
