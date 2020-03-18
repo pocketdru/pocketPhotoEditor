@@ -6,11 +6,10 @@ class MyFeed extends Component {
     render() {
         return(
             <div>
-                <p>kva</p>
-                {/* <header>
+                <header>
                     <NavBar {...this.props}/>
                 </header>
-                <PhotoFeed {...this.props}/> */}
+                <PhotoFeed {...this.props}/>
             </div>
         )
     }
