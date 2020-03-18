@@ -15,7 +15,7 @@ render() {
       mainComponent = <Home {...this.props} />;
       break;
     case "callback":
-      mainComponent = <Callback {...this.props}/>; 
+      mainComponent = <Callback/>; 
       break; 
     case "myfeed":
       mainComponent = this.props.auth.isAuthenticated() ? <MyFeed {...this.props} /> : < NotFound {...this.props} />;
