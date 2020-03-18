@@ -44,6 +44,11 @@ class PhotoFeed extends Component {
                                 <span className="dot"></span>
                             </div>
                         </div>
+                        <div className="row">
+                            <div className="col-md-8 col-sm-6">
+                    
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
