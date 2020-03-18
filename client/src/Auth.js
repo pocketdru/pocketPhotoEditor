@@ -9,10 +9,10 @@ export default class Auth {
     auth0 = new auth0.WebAuth({
         domain: "dev-qm0-ivzk.auth0.com",
         clientID: "QNCYbMnNO5ezHlm7WMc694bM6MOenTgO",
-        redirectUri: "https://pocket-photo-editor-ma.herokuapp.com" + "/callback",
+        redirectUri: window.location.origin + "/callback",
         audience: "https://dev-qm0-ivzk.auth0.com/userinfo",
         responseType: "token id_token",
-        scope: "openid email profile" 
+        scope: "openid profile" 
     });
 
     constructor() {
@@ -34,7 +34,7 @@ export default class Auth {
                 localStorage.setItem("id_token", authResults.idToken);
                 localStorage.setItem("expires_at", expiresAt);
                 window.location.hash = "";
-                window.location.pathname = "https://pocket-photo-editor-ma.herokuapp.com/myfeed";
+                window.location.pathname = LOGIN_SUCCESS_PAGE;
 
             } else if (err) {
                 window.location.pathname = LOGIN_FAILURE_PAGE;
