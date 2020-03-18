@@ -15,9 +15,9 @@ class Home extends Component {
     render() {
         return(
             <div>
-                <header>
+                {/* <header>
                     <NavBar {...this.props}/>
-                </header>
+                </header> */}
                 <MainCarousel/>
                 <AboutApp/>
                 <Portfolio/>
