@@ -5,7 +5,7 @@ const db = require("../models");
 
 mongoose.connect(
   process.env.MONGODB_URI ||
-  "mongodb://localhost/hyperlocal"
+  "mongodb://localhost/pocket_db"
 );
 
 const userSeed = [{
