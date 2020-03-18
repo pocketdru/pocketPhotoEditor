@@ -11,7 +11,7 @@ render() {
 
   let mainComponent = "";
   switch(this.props.location) {
-    case "https://pocket-photo-editor-ma.herokuapp.com":
+    case "":
       mainComponent = <Home {...this.props} />;
       break;
     case "/callback":
