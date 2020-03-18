@@ -14,13 +14,10 @@ render() {
     case "":
       mainComponent = <Home {...this.props} />;
       break;
-    case "/callback":
+    case "callback":
       mainComponent = <Callback {...this.props}/>; 
       break; 
-    case "https://pocket-photo-editor-ma.herokuapp.com/myfeed":
-      mainComponent = this.props.auth.isAuthenticated() ? <MyFeed {...this.props} /> : < NotFound {...this.props} />;
-      break;
-    case "/myfeed":
+    case "myfeed":
       mainComponent = this.props.auth.isAuthenticated() ? <MyFeed {...this.props} /> : < NotFound {...this.props} />;
       break;
     default:
