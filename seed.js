@@ -5,6 +5,7 @@ const db = require("./models");
 
 mongoose.connect(
   process.env.MONGODB_URI ||
+//   "mongodb://heroku_1l5014pk:uoiouulncm98nh4fguuvvm9qem@ds059524.mlab.com:59524/heroku_1l5014pk"
   "mongodb://localhost/pocket_db"
 );
 

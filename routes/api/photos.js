@@ -1,5 +1,7 @@
 const router = require("express").Router();
 const photosController = require("../../controllers/photosController");
+const multer = require("multer");
+const upload = multer({dest: "uploads/"});
 
 router
     .route("/")
@@ -10,6 +12,10 @@ router
         "your photo is in the database!"
     });
 ; 
+
+router.post("/photos", upload.single("photoPhoto"), (req, res, next) => {
+    console.log(req.file)
+})
 
 router
     .route("/photos")
