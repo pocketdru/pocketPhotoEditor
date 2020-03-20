@@ -5,6 +5,7 @@ import ColoredLine from "../hr";
 import r1 from "../mainCarousel/Rectangle_1.png";
 import r4 from "../mainCarousel/Rectangle_4.png";
 import r4r from "../mainCarousel/Rectangle_4_copy.png";
+import FileUpload from "../FileUpload";
 
 class PhotoFeed extends Component {
 
@@ -87,6 +88,7 @@ class PhotoFeed extends Component {
                             <div className="col-md-8 col-sm-6">
                                 <div className="photo-input">
                                     <button onClick={this.handleUploadButton} value="upload" name="upload">Upload</button>
+                                    <button></button>
                                 </div>
                             </div>
                         </div>

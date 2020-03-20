@@ -1,9 +1,27 @@
 const express = require("express");
+const fileUpload = require("express-fileupload");
 const mongoose = require("mongoose");
 const routes = require("./routes");
 const path = require("path");
 const PORT = process.env.PORT || 3001;
 const app = express();
+
+// upload endpoint
+app.use(fileUpload());
+app.post("/upload", (req, res) => {
+  if(req.files === null) {
+    return res.status(400).json({msg: "No file uploaded"});
+  }
+  const file = req.files.file;
+  file.mv(`${__dirname}/client/public/uploads/${file.name}`, err => {
+    if(err) {
+      console.log(err);
+      return res.status(500).send(err);
+    }
+    res.json({fileName: file.name, filePath: `/uploads/${file.name}`});
+  });
+})
+
 
 // Define middleware here
 app.use(express.urlencoded({ extended: true }));
@@ -15,8 +33,6 @@ if (process.env.NODE_ENV === "production") {
 
 // Define API routes here
 app.use(routes);
-// Send every other request to the React app
-// Define any API routes before this runs
 
 mongoose.connect(process.env.MONGODB_URI || 
   "mongodb://localhost/pocket_db"); 
