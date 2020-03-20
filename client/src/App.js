@@ -18,8 +18,8 @@ class App extends Component {
       case "photos":
         mainComponent = this.props.auth.isAuthenticated() ? <MyFeed {...this.props} /> : <NotFound {...this.props} />;
         break;
-      // default:
-      //   mainComponent = <NotFound {...this.props} />;
+      default:
+        mainComponent = <NotFound {...this.props} />;
   
     }
   

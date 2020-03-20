@@ -23,7 +23,7 @@ class PhotoFeed extends Component {
                this.setState({photos: response.data}, 
                 function() {
                    console.log(this.state.photos);
-                   console.log(response.data);
+                   console.log(response.data[0].name);
                })
             )
             .catch(err => console.log(err));
@@ -91,13 +91,13 @@ class PhotoFeed extends Component {
                         <div className="row">
                             <div className="col-md-12">
                                 <ul>
-                                {/* {this.state.photos.map(photo => {
+                                {this.state.photos.map(photo => {
                                     return (
                                         <li key={photo._id}>
-                                            <p>{photo.url}</p>
+                                            <p>{photo.name}</p>
                                         </li>
                                     )
-                                })} */}
+                                })}
                                 </ul>
                             </div>
                         </div>
