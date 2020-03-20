@@ -7,6 +7,10 @@ import r4 from "../mainCarousel/Rectangle_4.png";
 import r4r from "../mainCarousel/Rectangle_4_copy.png";
 
 class PhotoFeed extends Component {
+
+    state = {
+        photos: []
+    }
     
     handleUploadButton = event => {
         event.preventDefault();
@@ -18,6 +22,8 @@ class PhotoFeed extends Component {
         })
         .catch(err => console.log(err))
     };
+
+
 
     render() {
     return(
