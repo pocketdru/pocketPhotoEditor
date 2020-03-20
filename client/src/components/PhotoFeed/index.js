@@ -84,12 +84,17 @@ class PhotoFeed extends Component {
                                 <span className="dot"></span>
                             </div>
                         </div>
-                        <div className="row">
+                        {/* <div className="row">
                             <div className="col-md-8 col-sm-6">
                                 <div className="photo-input">
                                     <button onClick={this.handleUploadButton} value="upload" name="upload">Upload</button>
                                     <button></button>
                                 </div>
+                            </div>
+                        </div> */}
+                        <div className="row mb-5">
+                            <div className="col-md-12">
+                                <FileUpload/>
                             </div>
                         </div>
                         <div className="row">
