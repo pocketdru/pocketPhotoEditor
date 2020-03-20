@@ -97,7 +97,7 @@ class PhotoFeed extends Component {
                                 <FileUpload/>
                             </div>
                         </div>
-                        <div className="row">
+                        {/* <div className="row">
                             <div className="col-md-12">
                                 <ul>
                                 {this.state.photos.map(photo => {
@@ -109,7 +109,7 @@ class PhotoFeed extends Component {
                                 })}
                                 </ul>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
