@@ -32,13 +32,15 @@ class PhotoFeed extends Component {
     
     handleUploadButton = event => {
         event.preventDefault();
-        var photoData = event.target.getAttribute("value");
+        var photoData =
+         {name: event.target.getAttribute("value")};
         console.log(photoData);
         API.savePhoto(photoData)
         .then(res => {
             console.log("Photo saved!");
         })
         .catch(err => console.log(err))
+        this.loadPhotos();
     };
 
 
@@ -84,7 +86,7 @@ class PhotoFeed extends Component {
                         <div className="row">
                             <div className="col-md-8 col-sm-6">
                                 <div className="photo-input">
-                                    <button onClick={this.handleUploadButton} value="upload">Upload</button>
+                                    <button onClick={this.handleUploadButton} value="upload" name="upload">Upload</button>
                                 </div>
                             </div>
                         </div>
