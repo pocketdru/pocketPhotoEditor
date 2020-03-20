@@ -11,6 +11,24 @@ class PhotoFeed extends Component {
     state = {
         photos: []
     }
+
+    componentDidMount() {
+        this.loadPhotos();
+        console.log(this.state.photos);
+    }
+
+    loadPhotos = () => {
+        API.getPhotos()
+            .then(response =>
+               this.setState({photos: response.data}, 
+                function() {
+                   console.log(this.state.photos);
+                   console.log(response.data);
+               })
+            )
+            .catch(err => console.log(err));
+            console.log(this.state.photos);
+    }
     
     handleUploadButton = event => {
         event.preventDefault();
@@ -68,6 +86,19 @@ class PhotoFeed extends Component {
                                 <div className="photo-input">
                                     <button onClick={this.handleUploadButton} value="upload">Upload</button>
                                 </div>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col-md-12">
+                                <ul>
+                                {/* {this.state.photos.map(photo => {
+                                    return (
+                                        <li key={photo._id}>
+                                            <p>{photo.url}</p>
+                                        </li>
+                                    )
+                                })} */}
+                                </ul>
                             </div>
                         </div>
                     </div>
