@@ -1,5 +1,6 @@
 import React, {Fragment, useState} from "react";
 import Message from "./Message.js";
+import Progress from "./Progress.js";
 import axios from "axios";
 
 const FileUpload = () => {
@@ -53,6 +54,7 @@ const FileUpload = () => {
                     {filename}
                 </label>
                 </div>
+                <Progress percentage={uploadPercentage} />
                 <input type="submit" 
                 value="Upload"
                 className="btn btn-primary" 
