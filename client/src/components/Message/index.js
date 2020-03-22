@@ -12,8 +12,8 @@ const Message = ({ msg }) => {
     );
 };
 
-// Message.PropTypes = {
-//     msg: PropTypes.string.isRequired
-// };
+Message.propTypes = {
+    msg: PropTypes.string
+};
 
 export default Message;
